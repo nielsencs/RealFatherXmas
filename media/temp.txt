@@ -1,1 +1,0 @@
-this is a quick and dirty way to create the media folder (probably a better one, but this took seconds)
