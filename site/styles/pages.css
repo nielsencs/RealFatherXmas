@@ -1,0 +1,163 @@
+.content {
+    /*flex: 1 0 auto;*/
+    /*height: 100%;*/
+    /*min-height: 1000px;*/
+    /*min-width:  500px;*/
+    /*overflow: hidden;*/
+}
+
+.headerBox {
+    background-color: #2f4d36;
+}
+
+.header {
+    /*color: white*/
+    width: 500px;
+    /*height: 200px;*/
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.logo {
+    float: left;
+}
+
+.navBox {
+    height: 50px;
+    display: block;
+    margin: 14px 80px 0 80px;
+    /*padding: 10px 0;*/
+    border-top: 1px solid white;
+}
+
+.navBoxLeft {
+    display: block;
+    margin: 0;
+    /*float: left;*/
+    background-color: #2f4d36;
+}
+
+.navBoxRight {
+    display: block;
+    margin: 0;
+    float: right;
+    background-color: #2f4d36;
+}
+
+.FB {
+    margin-top: 3px;
+}
+.nav {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 5px;
+  /*margin-bottom: 7px;*/
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: left;
+  list-style: none;
+  /*padding: 14px 7px 14px 3px;*/
+}
+
+.footNav {
+  font-family: 'Londrina Solid', sans-serif;
+  /* font-family: 'Overlock', cursive; */
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0 13px 0 0;
+  font-size: 14px;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-weight: normal;
+  /*color: Gainsboro;*/
+  padding: 3px;
+}
+/*
+.nav li a:hover {
+  color: #FFF0CC;
+  padding: 3px;
+}
+*/
+.navLinks {
+    float: right;
+}
+
+.main {
+  width: 77%;
+  display: block;
+  margin: 14px auto;
+  padding: 7px;
+  background-color: white;
+  color: black;
+}
+
+.main h2 h3 p {
+  color: black;
+}
+
+.main a {
+  color: darkred;
+  font-weight: bold;
+}
+
+.main a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.VisitSanta {
+    width: 100%;
+    min-width:  500px;
+    height: 400px;
+    background-color: burlywood;
+    background-image: url('../media/SantaSnooze3.mp4')
+    /*background-image: url('../images/SantaFireplace.webp');*/
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h4 {
+  text-align: center;
+  font-size: 28px;
+  z-index: 1;
+/*  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  opacity: 0.7;*/
+}
+
+.video-container {
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  width: 100%; */
+}
+
+.footer {
+  background-color: #4c150e;
+  color: Gainsboro;
+  list-style: none;
+  text-align: center;
+  padding: 6px 0 7px 0;
+  min-width:  500px;
+  /* flex-shrink: 0; */
+  /*height: 21px;*/
+  /* margin-top: -100px; */
+  /* position: fixed; */
+  /* width: 100%; */
+  /* bottom: 0; */
+  /* position: absolute; */
+}
