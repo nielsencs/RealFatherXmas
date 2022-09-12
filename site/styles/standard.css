@@ -29,7 +29,7 @@
     .content {
       flex: 1 0 auto;
       /* 100vh - .headerBox.min-height - footer.height */
-      min-height: calc(100vh - 182px - 72px - 30px);
+      min-height: calc(100vh - 182px - 72px);
     }
 
     footer {
@@ -42,7 +42,7 @@
       color: Gainsboro;
       list-style: none;
       text-align: center;
-      padding: 6px 0 7px 0;
+      padding: 0 0 21px 0;
       /* use height in .content calc() */
       height: 72px;
     }
@@ -218,6 +218,9 @@
 
     .FB {
       margin-top: 3px;
+      width: 20px;
+      height: 20px;
+      vertical-align: sub;
     }
 
     .nav {
@@ -229,12 +232,6 @@
       text-align: left;
       list-style: none;
       /*padding: 14px 7px 14px 3px;*/
-    }
-
-    .footNav {
-      font-family: 'Londrina Solid', sans-serif;
-      /* font-family: 'Overlock', cursive; */
-      text-align: center;
     }
 
     .nav li {
@@ -264,7 +261,7 @@
     }
 
     .main a {
-      color: darkred;
+      color: #8c9d52;
       font-weight: bold;
     }
 
