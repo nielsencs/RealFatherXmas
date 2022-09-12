@@ -1,6 +1,5 @@
 <?php
   require_once 'header.php';
-//  require_once 'timeStamp.php';
 ?>
 <div class="main">
   <h2>Privacy Policy</h2>
