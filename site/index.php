@@ -1,15 +1,16 @@
 <?php
-  require_once 'header.php';
-//  require_once 'timeStamp.php';
+$bSnow = false;
+require_once 'header.php';
 ?>
-        <div class="VisitSanta section">
-          <h4>Santa's very tired.<br />Try popping back in November!</h4>
-          <!--div class="video-container">
-            <video autoplay loop muted>
-              <source src="/media/SantaSnooze3.mp4" type=video/mp4>
-            </video>
-          </div-->
-        </div>
+<div class="content">
+  <div class="imageContainer">
+    <img src="images/MrCSnoozeTop.jpg" alt="Mr C snoozing after a long Christmas season!" style="width:100%;">
+    <div class="centerMiddle">
+      <h2 style="color:#fff">Mr C is still <em>very</em> tired!</h2>
+      <h4 class="centerText">But the elves are ready to help with bookings and anything else - just send us an <a href="mailto:realfatherxmas@ncsnet.co.uk" style="font-weight:bold;">email</a>.</h4>
+    </div>
+  </div>
+</div>
 <?php
-  require_once 'footer.php';
+require_once 'footer.php';
 ?>
