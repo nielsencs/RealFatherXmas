@@ -1,6 +1,6 @@
     </div>
-    <div class="footer">
-      <p>&#169;2020-2021 Real Father Xmas.</p>
-    </div>
+    <footer>
+      <p>&#169;2020-<?php echo date("Y");?> Real Father Xmas.</p>
+    </footer>
 </body>
 </html>
