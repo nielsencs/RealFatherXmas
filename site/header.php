@@ -48,7 +48,7 @@
             <div class="navBoxRight">
                 <div class="navLinks">
                     <a href="mailto:elves@realfatherxmas.com">elves@realfatherxmas.com</a>
-                    <a rel="noreferrer" href="https://www.facebook.com/realfatherxmas" target="_blank"><img src="images\Facebook.webp" alt="Facebook" class="FB"></a>
+                    <a rel="noreferrer" href="https://www.facebook.com/realfatherxmas" target="_blank"><img src="images\Facebook.png" alt="Facebook" class="FB"></a>
                 </div>
             </div>
         </div>
