@@ -2,7 +2,7 @@
 $bSnow = false;
 require_once 'header.php';
 
-$iMonth = 12;
+$iMonth = date("m");
 $iMonthActive = 10;
 $tImage = "images/MrCTop.jpg";
 $tImageAlt = "Mr C sitting by his tree!";
@@ -13,7 +13,7 @@ if($iMonth < $iMonthActive){
 
 $tHeading = "";
 $tParaStart = 'But the elves are always ready to help with bookings and anything else - just ';
-$tParaEmail = 'send us an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold;">email</a>';
+$tParaEmail = 'send us an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold; background-color: #fff">email</a>';
 
 $bForm = false;
 $tFormFill = "";
@@ -32,13 +32,15 @@ if ($bForm){
       } 
       if ($iMonth >= 6) {
         $tHeading = "Mr C is still rather sleepy... Zzz!";
-        $tParaStart = "The elves are available - do ";
+        $tParaStart = "But the elves are available - do ";
       }
       if ($iMonth >= 8) {
         $tHeading = "Mr C is <em>still</em> very tired.";
       }
       if ($iMonth >= $iMonthActive) {
-        $tHeading = "Visit Mr C from the comfort of your own home!";
+        // $tHeading = "Visit Mr C from the comfort of your own home!";
+        $tHeading = "Have you ever met the Real Father Christmas?";
+        $tParaStart = 'Get the elves to organise it for you - just ';
       }
 ?>
       <h2 style="color:#fff"><?php echo $tHeading;?></h2>
