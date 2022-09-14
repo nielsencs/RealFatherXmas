@@ -3,10 +3,10 @@
 //  require_once 'timeStamp.php';
 ?>
         <div class='main'>
-          <h2>All About Santa's Reindeer</h2>
-          <h3>How many reindeer does Santa have?</h3>
+          <h2>All About Mr C's Reindeer</h2>
+          <h3>How many reindeer does Mr C have?</h3>
           <p>Actually this is normally considered a rude question in
-             reindeer-keeping circles, but Santa has kindly agreed to tell us
+             reindeer-keeping circles, but Mr C has kindly agreed to tell us
              that he&lsquo;s not absolutely sure, but he certainly has more than
              200, the most famous ones being:</p>
           <ul>
@@ -84,7 +84,7 @@
               <li>Whizzer</li>
           </ul>
           <h3>Name a Reindeer</h3>
-          <p>Would you like to name one of Santa's reindeer? And get a certificate to prove it?</p>
+          <p>Would you like to name one of Mr C's reindeer? And get a certificate to prove it?</p>
         </div>
 <?php
   require_once 'footer.php';
