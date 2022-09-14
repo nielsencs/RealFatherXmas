@@ -1,13 +1,13 @@
 <?php
-  require_once 'header.php';
-//  require_once 'timeStamp.php';
+$bSnow = true;
+require_once 'header.php';
 ?>
         <div class='main'>
-          <h2>All About Mr C's Reindeer</h2>
+          <h2>All About Mr C&rsquo;s Reindeer</h2>
           <h3>How many reindeer does Mr C have?</h3>
           <p>Actually this is normally considered a rude question in
              reindeer-keeping circles, but Mr C has kindly agreed to tell us
-             that he&lsquo;s not absolutely sure, but he certainly has more than
+             that he&rsquo;s not absolutely sure, but he certainly has more than
              200, the most famous ones being:</p>
           <ul>
               <li>Dasher</li>
@@ -18,7 +18,7 @@
               <li>Cupid</li>
               <li>Dunder / Donner   meaning thunder...</li>
               <li>Blixem / Blitzen  ... and lightning</li>
-              <li></li>
+              <br>
               <li>Flossie</li>
               <li>Glossie</li>
               <li>Racer</li>
@@ -29,31 +29,31 @@
               <li>Steady</li>
               <li>Feckless</li>
               <li>Speckless</li>
-              <li></li>
+              <br>
               <li>Rudolf</li>
               <li>Annabelle</li>
-              <li></li>
+              <br>
               <li>Mitzi</li>
               <li>Zoey</li>
               <li>Arrow</li>
-              <li></li>
+              <br>
               <li>Chet</li>
               <li>Blizzard</li>
               <li>Snowcone (the white one)</li>
               <li>Shadrack The Black Reindeer</li>
               <li>Leroy the Redneck Reindeer</li>
-              <li></li>
+              <br>
               <li>Chopper</li>
               <li>Nixon</li>
-              <li></li>
+              <br>
               <li>Scratcher</li>
-              <li></li>
+              <br>
               <li>Lightning</li>
-              <li></li>
+              <br>
               <li>Olive</li>
-              <li></li>
+              <br>
               <li>Robbie</li>
-              <li></li>
+              <br>
               <li>Steven</li>
               <li>Fluffy</li>
               <li>Horace</li>
@@ -62,18 +62,18 @@
               <li>Rainbow</li>
               <li>Patches</li>
               <li>Montel</li>
-              <li></li>
+              <br>
               <li>Rusty</li>
-              <li></li>
+              <br>
               <li>Frost</li>
               <li>Holly</li>
-              <li></li>
+              <br>
               <li>Niko</li>
               <li>Oona</li>
               <li>Jonni</li>
               <li>Lenni</li>
               <li>Thrasher</li>
-              <li></li>
+              <br>
               <li>Ivy</li>
               <li>Dawn</li>
               <li>Halo</li>
