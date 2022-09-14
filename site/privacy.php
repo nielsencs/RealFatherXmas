@@ -1,5 +1,6 @@
 <?php
-  require_once 'header.php';
+$bSnow = false;
+require_once 'header.php';
 ?>
 <div class="main">
   <h2>Privacy Policy</h2>
@@ -59,7 +60,7 @@
   <p>We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.</p>
 
   <h3>Contact Us</h3>
-  <p>If you have any questions  or suggestions about this Privacy Policy, please do not hesitate to <a href="mailto:elves@realfatherxmas.com">contact us</a>.</p>
+  <p>If you have any questions or suggestions about this Privacy Policy, please do not hesitate to <a href="mailto:elves@realfatherxmas.com">contact us</a>.</p>
 </div>
 
 <?php

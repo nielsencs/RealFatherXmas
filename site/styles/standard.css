@@ -224,6 +224,7 @@
     }
 
     .nav {
+      float: left;
       font-family: 'Nunito', sans-serif;
       margin-top: 5px;
       /*margin-bottom: 7px;*/
@@ -243,7 +244,6 @@
     .nav li a {
       text-decoration: none;
       font-weight: normal;
-      /*color: Gainsboro;*/
       padding: 3px;
     }
 
