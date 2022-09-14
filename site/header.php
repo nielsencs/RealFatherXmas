@@ -38,7 +38,7 @@
         <div class="navBox">
             <div class="navBoxLeft">
                 <ul class="nav">
-                    <li><a href="index.html">Home</a></li> <!-- change to php when going live -->
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="inPerson.php">In Person</a></li>
                     <li><a href="fun.php">Fun Stuff</a></li>
                     <!-- <li><a href="events.php">Events</a></li> -->
