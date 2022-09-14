@@ -3,6 +3,10 @@
       padding: 0;
     }
 
+    html {
+      font-size: calc(15px + 0.390625vw);
+    }
+
     body {
       font-family: 'Nunito', sans-serif;
       color: White;
@@ -16,6 +20,10 @@
       min-height: 182px;
       background-color: #2f4d36;
     }
+
+    /* .headerBox p {
+      font-size: 14px;
+    } */
 
     .header {
       /*color: white*/
@@ -52,7 +60,7 @@
       color: #fff;
       margin-top: 7px;
       margin-bottom: 7px;
-      font-size: 49px;
+      font-size: 2rem;
       font-weight: lighter;
       text-align: center;
     }
@@ -62,7 +70,7 @@
       color: #2f4d36;
       margin-top: 6px;
       margin-bottom: 6px;
-      font-size: 42px;
+      font-size: 1.8rem;
       font-weight: lighter;
       text-align: center;
     }
@@ -72,7 +80,7 @@
       color: #2f4d36;
       margin-top: 5px;
       margin-bottom: 5px;
-      font-size: 35px;
+      font-size: 1.6rem;
       font-weight: lighter;
       text-align: center;
     }
@@ -82,14 +90,14 @@
       color: #2f4d36;
       margin-top: 4px;
       margin-bottom: 4px;
-      font-size: 28px;
+      font-size: 1.4rem;
       font-weight: lighter;
       text-align: center;
     }
 
     p {
       margin-top: 14px;
-      font-size: 14px;
+      /* font-size: 14px; */
     }
 
     ol,
@@ -225,9 +233,9 @@
     .nav {
       float: left;
       font-family: 'Nunito', sans-serif;
-      margin-top: 5px;
+      /* margin-top: 5px; */
       /*margin-bottom: 7px;*/
-      font-size: 14px;
+      /* font-size: 14px; */
       font-weight: lighter;
       text-align: left;
       list-style: none;
@@ -237,7 +245,6 @@
     .nav li {
       display: inline-block;
       padding: 0 13px 0 0;
-      font-size: 14px;
     }
 
     .nav li a {
@@ -270,5 +277,17 @@
     }
 
     .kristos {
+      color: #8c9d52;
+    }
+
+    .blocks {
+      display: block;
+      float: left;
+      height: 700px;
+      width: 33%;
+      min-width: 378px;
+    }
+
+    .blocks h2 {
       color: #8c9d52;
     }
