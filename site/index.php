@@ -9,7 +9,7 @@ require_once 'header.php';
       <div class="centerMiddle">
         <h2 style="color:#fff">Mr C is still <em>very</em> tired!</h2>
         <p class="centerText" style="color: #fff;">But the elves are ready to help with bookings and anything else - just send us
-                        an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold;">email</a>.</p>
+                        an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold;">email</a> or fill in the form below.</p>
       </div>
     </div>
   </div>
