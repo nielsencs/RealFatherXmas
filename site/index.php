@@ -23,7 +23,7 @@ if ($bForm){
 ?>
 <div class="main">
   <div class="imageContainer">
-    <img src="<?php echo $tImage;?>" alt="<?php echo $tImageAlt;?>" style="width:100%; min-height: 423px;">
+    <img src="<?php echo $tImage;?>" alt="<?php echo $tImageAlt;?>" style="width:100%;">
     <div class="centerMiddle">
 <?php
       if ($iMonth >= 1) {

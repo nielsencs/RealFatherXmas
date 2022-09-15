@@ -159,10 +159,12 @@
       display: inline-block;
       position: relative;
       text-align: center;
-    }
+      min-height: 275px;
+      background: #2f4d36;
+      }
 
     .center {
-      width: 170px;
+      width: 70%;
       display: block;
       margin: 0 auto;
     }
@@ -179,6 +181,13 @@
       text-align: center;
     }
 
+    iframe{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 5px;
+    }
+    
     @media (max-width: 500px) {
       .header {
         /*color: white*/

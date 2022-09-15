@@ -11,8 +11,7 @@ require_once 'header.php';
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="center"></iframe>
+            allowfullscreen></iframe>
     <ul>
         <li>Why Xmas?</li>
         <li>All About Mr C&rsquo;s Reindeer</li>
