@@ -2,7 +2,7 @@
 $bSnow = false;
 require_once 'header.php';
 ?>
-<div>
+<div class="main">
     <div class="blocks" style="background-color: #2f341b;">
         <h2>Come and see him In Person</h2>
         <p>You can come and see Mr C in person on Wednesdays, Thursdays, Fridays and Saturday mornings during December at:</p>

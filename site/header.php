@@ -39,9 +39,9 @@
             <div class="navBoxLeft">
                 <ul class="nav">
                     <li><a href="index.php">Home</a></li>
+                    <li><a href="events.php">Events</a></li>
                     <li><a href="inPerson.php">In Person</a></li>
                     <li><a href="fun.php">Fun Stuff</a></li>
-                    <!-- <li><a href="events.php">Events</a></li> -->
                     <li><a href="privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
