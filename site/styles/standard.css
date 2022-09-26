@@ -306,7 +306,7 @@
 
     .funMenuBox {
       margin: auto;
-      border: dotted 3px gold;
+      border: dotted 3px #8c9d52;
       border-radius: 14px;
       width: 70%;
     }

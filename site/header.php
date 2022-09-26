@@ -53,6 +53,6 @@
             </div>
         </div>
     </div>
-    <div class="content">
+    <div class="content"<?php if ($bSnow) {echo ' style="background-image: url(/images/SnowTrees.jpg);"';}?>>
 
     

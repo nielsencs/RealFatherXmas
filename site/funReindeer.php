@@ -7,12 +7,14 @@ require_once 'header.php';
 require_once 'funMenu.php';
 ?>
   <h2>All About Mr C&rsquo;s Reindeer</h2>
+  <img src="images/284_6229_Reindeer.jpg" style="width: 100%;" alt="It's not rudolf!">
   <h3>How many reindeer does Mr C have?</h3>
   <p>Actually this is normally considered a rude question in
     reindeer-keeping circles, but Mr C has kindly agreed to tell us
     that he&rsquo;s not absolutely sure, but he certainly has more than
     200, the most famous ones being:</p>
-  <ul>
+    <br>
+  <ul style="column-count: 3;">
     <li>Dasher</li>
     <li>Dancer</li>
     <li>Prancer</li>
@@ -86,8 +88,9 @@ require_once 'funMenu.php';
     <li>Chops</li>
     <li>Whizzer</li>
   </ul>
-  <h3>Name a Reindeer</h3>
-  <p>Would you like to name one of Mr C's reindeer? And get a certificate to prove it?</p>
+  <!-- <h3>Name a Reindeer</h3> NOT YET!
+  <p>Would you like to name one of Mr C's reindeer? And get a certificate to prove it?</p> -->
+  <img src="images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
 </div>
 <?php
 require_once 'footer.php';
