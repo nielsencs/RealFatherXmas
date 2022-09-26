@@ -304,3 +304,24 @@
       height: 100%;
     }
 
+    .funMenuBox {
+      margin: auto;
+      border: dotted 3px gold;
+      border-radius: 14px;
+      width: 70%;
+    }
+
+    .funMenu {
+      margin-top: 5px;
+      text-align: center;
+      list-style: none;
+    }
+
+    .funMenu li {
+      display: block;
+      margin: 7px auto;
+      border: solid 3px #ccc;
+      border-radius: 5px;
+      background: #ddd;
+      width: 70%;
+    }
