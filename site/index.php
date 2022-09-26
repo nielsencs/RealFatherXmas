@@ -13,7 +13,7 @@ if($iMonth < $iMonthActive){
 
 $tHeading = "";
 $tParaStart = 'But the elves are always ready to help with bookings and anything else - just ';
-$tParaEmail = 'send us an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold; background-color: #fff">email</a>';
+$tParaEmail = 'send us an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold;">email</a>';
 
 $bForm = false;
 $tFormFill = "";
@@ -32,7 +32,7 @@ if ($bForm){
       } 
       if ($iMonth >= 6) {
         $tHeading = "Mr C is still rather sleepy... Zzz!";
-        $tParaStart = "But the elves are available - do ";
+        $tParaStart = "But the elves are always available - do ";
       }
       if ($iMonth >= 8) {
         $tHeading = "Mr C is <em>still</em> very tired.";
