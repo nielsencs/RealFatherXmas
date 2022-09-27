@@ -23,7 +23,6 @@ require_once 'funMenu.php';
     <li>Cupid</li>
     <li>Dunder / Donner meaning thunder...</li>
     <li>Blixem / Blitzen ... and lightning</li>
-    <br>
     <li>Flossie</li>
     <li>Glossie</li>
     <li>Racer</li>
@@ -34,31 +33,22 @@ require_once 'funMenu.php';
     <li>Steady</li>
     <li>Feckless</li>
     <li>Speckless</li>
-    <br>
     <li>Rudolf</li>
     <li>Annabelle</li>
-    <br>
     <li>Mitzi</li>
     <li>Zoey</li>
     <li>Arrow</li>
-    <br>
     <li>Chet</li>
     <li>Blizzard</li>
     <li>Snowcone (the white one)</li>
     <li>Shadrack The Black Reindeer</li>
     <li>Leroy the Redneck Reindeer</li>
-    <br>
     <li>Chopper</li>
     <li>Nixon</li>
-    <br>
     <li>Scratcher</li>
-    <br>
     <li>Lightning</li>
-    <br>
     <li>Olive</li>
-    <br>
     <li>Robbie</li>
-    <br>
     <li>Steven</li>
     <li>Fluffy</li>
     <li>Horace</li>
@@ -67,18 +57,14 @@ require_once 'funMenu.php';
     <li>Rainbow</li>
     <li>Patches</li>
     <li>Montel</li>
-    <br>
     <li>Rusty</li>
-    <br>
     <li>Frost</li>
     <li>Holly</li>
-    <br>
     <li>Niko</li>
     <li>Oona</li>
     <li>Jonni</li>
     <li>Lenni</li>
     <li>Thrasher</li>
-    <br>
     <li>Ivy</li>
     <li>Dawn</li>
     <li>Halo</li>
