@@ -1,6 +1,12 @@
 <?php
 $bSnow = false;
 require_once 'header.php';
+
+$bForm = false;
+$tFormFill = "";
+if ($bForm) {
+    $tFormFill = " or fill in the form below";
+}
 ?>
 <div class="main">
     <div class="blocks" style="background-color: #2f341b;">
@@ -14,12 +20,15 @@ require_once 'header.php';
             HP4 1BL<br>
         </address>
     </div>
-    <div class="blocks" style="background-color: #4c150e;">
+    <div class="blocks MrCBackground brightA">
         <h2>He could come to Your Place!</h2>
         <p>Wouldn't it be wonderful to have an encounter with the Real Father Christmas? Well, you can! It doesn't matter whether you're young or old;
             a small group or a crowd. Maybe you're planning a special party at home with the kids, or you'd like him to appear at your business opening?</p>
-        <p>Whatever the occasion throughout November and December - just fill in the form and we'll get back to you with a quotation.</p>
+        <p>Whatever the occasion throughout November and December - just drop us an <a href="mailto:elves@realfatherxmas.com">email</a> <?php echo $tFormFill; ?> and we'll get back to you with a quotation.</p>
     </div>
+<?php
+if ($bForm) {
+?>
     <div class="blocks" style="background-color: #8c9d52;">
         <h2 style="color: #4c150e">Booking Enquiry</h2>
         <p>Name</p>
@@ -44,6 +53,9 @@ require_once 'header.php';
         <p></p>
         <p>Submit</p>
     </div>
+    <?php
+}
+?>
     <div style="clear:left"></div>
 </div>
 <?php

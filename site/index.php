@@ -24,7 +24,7 @@ if ($bForm){
 <div class="main">
   <div class="imageContainer">
     <img src="<?php echo $tImage;?>" alt="<?php echo $tImageAlt;?>" style="width:100%;">
-    <div class="centerMiddle">
+    <div class="centerMiddle brightA">
 <?php
       if ($iMonth >= 1) {
         $tHeading = "Mr C is very tired.";
