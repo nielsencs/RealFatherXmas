@@ -8,7 +8,7 @@ require_once 'funMenu.php';
 ?>
     <p>If your budget is a bit too tight, here's a message from Mr C himself for you to show your loved ones with our very best!</p>
     <div class="responsive-iframe-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CKWPQIMlYxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CKWPQIMlYxo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <img src="images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
 </div>
