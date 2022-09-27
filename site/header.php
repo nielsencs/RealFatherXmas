@@ -30,10 +30,10 @@
 <body>
     <div class="headerBox">
         <div class="header">
-            <img src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo" class="logo">
+            <img class="logo" src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo">
 
             <h1>Real Father Xmas</h1>
-            <p class="centerText">I look like him. I sound like him. I am him!</p>
+            <p class="centerText">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
         </div>
         <div class="navBox">
             <div class="navBoxLeft">
