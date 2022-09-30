@@ -3,10 +3,12 @@ $bSnow = false;
 require_once 'header.php';
 
 $iMonth = date("m");
+$iDay = date("j");
+
 $iMonthActive = 10;
 $tImage = "images/MrCTop.jpg";
 $tImageAlt = "Mr C sitting by his tree!";
-if($iMonth < $iMonthActive){
+if($iMonth < $iMonthActive || ($iMonth == 12 && $iDay > 24) ){
   $tImage = "images/MrCSnoozeTop.jpg";
   $tImageAlt = "Mr C snoozing after a long Christmas season!";
 }
@@ -42,6 +44,10 @@ if ($bForm){
         $tHeading = "Have you ever met the Real Father Christmas?";
         $tParaStart = 'Get the elves to organise it for you - just ';
       }
+      if ($iMonth == 12 && $iDay > 24) {
+        $tHeading = "Mr C is <em>ever so</em> tired but wishes you a Happy Christmas!.";
+        $tParaStart = "If you need anything, do ";
+      }
 ?>
       <h2 style="color:#fff"><?php echo $tHeading;?></h2>
       <p class="centerText" style="color: #fff;"><?php echo $tParaStart . $tParaEmail . $tFormFill;?>.</p>
@@ -55,11 +61,8 @@ if ($bForm){
   <h3>Contact Form</h3>
   <form action="action_page.php">
 
-    <label for="fname">First Name</label>
+    <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name...">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
     <label for="subject">Subject</label>
     <input type="text" id="subject" name="subject" placeholder="Subject...">
