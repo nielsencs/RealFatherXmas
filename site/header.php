@@ -28,12 +28,12 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <div class="logoBox">
             <img class="logo" src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo">
 
             <h1>Real Father Xmas</h1>
-            <p class="centerText">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
+            <p class="centerText" style="font-size: smaller;">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
         </div>
         <div class="navBox">
             <div class="navBoxLeft">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="content"<?php if ($bSnow) {echo ' style="background-image: url(/images/SnowTrees.jpg);"';}?>>
-
-    
+    </header>
+    <div class="content" <?php if ($bSnow) {
+                                echo ' style="background-image: url(/images/SnowTrees.jpg);"';
+                            } ?>>

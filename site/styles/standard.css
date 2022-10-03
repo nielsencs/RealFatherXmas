@@ -12,20 +12,20 @@
       font-family: 'Nunito', sans-serif;
       color: White;
       background: #333333;
+      display: grid;
     }
 
-    .header {
+    header {
       /* use min-height in .content calc() */
       min-height: 182px;
       background-color: #2f4d36;
     }
 
     .logoBox {
-      width: calc(260px + 18vw);
-      height: 91px;
+      width: 27rem;
+      /* height: 91px; */
       display: block;
-      margin: 0 auto;
-      padding: 20px 0 0 0;
+      margin: 1rem auto;
     }
 
     .content {
@@ -54,7 +54,7 @@
       color: #fff;
       margin-top: 7px;
       margin-bottom: 7px;
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: lighter;
       text-align: center;
     }
@@ -181,6 +181,7 @@
 
     .logo {
       float: left;
+      width: 5.6rem;
     }
 
     .navBox {
@@ -230,6 +231,13 @@
     .nav li {
       display: inline-block;
       padding: 0 13px 0 0;
+    }
+
+    @media (max-width: 840px) {
+      .nav li {
+        display: list-item;
+        padding: 3px;
+      }
     }
 
     .nav li a {
