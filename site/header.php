@@ -28,8 +28,8 @@
 </head>
 
 <body>
-    <div class="headerBox">
-        <div class="header">
+    <div class="header">
+        <div class="logoBox">
             <img class="logo" src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo">
 
             <h1>Real Father Xmas</h1>

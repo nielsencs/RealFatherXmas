@@ -14,13 +14,13 @@
       background: #333333;
     }
 
-    .headerBox {
+    .header {
       /* use min-height in .content calc() */
       min-height: 182px;
       background-color: #2f4d36;
     }
 
-    .header {
+    .logoBox {
       width: calc(260px + 18vw);
       height: 91px;
       display: block;
