@@ -31,8 +31,8 @@
     .content {
       flex: 1 0 auto;
       /* min-height below is 100vh - .headerBox.min-height - footer.height 
-         This ensures footer is at bootom of display when insufficient contennt to require scrolling.*/
-      min-height: calc(100vh - 182px - 77px);
+         This ensures footer is at bottom of display when insufficient content to require scrolling.*/
+      min-height: calc(100vh - 182px - 108px);
     }
 
     footer {
@@ -185,7 +185,6 @@
     }
 
     .navBox {
-      height: 50px;
       display: block;
       margin: 14px 10% 0 10%;
       border-top: .14vw solid white;
@@ -203,6 +202,7 @@
     .navBoxLeft {
       display: block;
       margin: 0;
+      padding: 0 0 7px 0;
       float: left;
     }
 
