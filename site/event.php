@@ -6,12 +6,14 @@ $tFileToday = "calendar/today.txt";
 $iFileModTime = filemtime($tFileToday);
 $tLine = "";
 
-$tDateTimeBEG = "DTSTART;TZID=Europe/London:";
-$tDateTimeEND = "DTEND;TZID=Europe/London:";
+// $tDateTimeBEG = "DTSTART;TZID=Europe/London:";
+// $tDateTimeEND = "DTEND;TZID=Europe/London:";
+$tDateTimeBEG = "DTSTART:";
+$tDateTimeEND = "DTEND:";
 
 $tEventDateTime = "";
-$tDate = "";
-
+$oDate = time();
+$tDateFormat = "l, F j, Y ";
 $tFileModDate = date("d:m", $iFileModTime);
 $tTodayYear = date("Y");
 $tTodayMonth = date("m");
@@ -69,11 +71,11 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
                 $iStart = strlen($tTag);
                 if (substr($tLine, 0, $iStart) == $tTag) {
                     $tRepeatRule = getValue($tLine, $tTag);
-                    $rd = new ZCRecurringDate($tRepeatRule, strtotime($tDate));
+                    $rd = new ZCRecurringDate($tRepeatRule, $oDate);
                     $dates = $rd->getDates($maxdate);
                     foreach($dates as $d)
                     {
-                        echo $tEventSummary . date('l, F j, Y ',$d) . "<br>\n";
+                        echo $tEventSummary . date($tDateFormat, $d) . "<br>\n";
                     }
                 }
             }
@@ -89,7 +91,7 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
 
 function getDateTime($tLine, $tTag)
 {
-    global $tTodayYear, $tDate, $tEventDateTime, $tDateTimeBEG, $bLogging;
+    global $tTodayYear, $oDate, $tEventDateTime, $tDateTimeBEG, $bLogging;
     $iStart = strlen($tTag);
 
     if (substr($tLine, 0, $iStart) == $tTag) {
@@ -99,13 +101,9 @@ function getDateTime($tLine, $tTag)
             // month
             $iStart = $iStart + 4;
             $tMonthNum  = substr($tLine, $iStart, 2);
-            $dateObj  = DateTime::createFromFormat('!m', $tMonthNum);
-            $tMonthName = $dateObj->format('F');
-            $tTextDate .= $tMonthName;
             // day
             $iStart = $iStart + 2;
             $tDay = substr($tLine, $iStart, 2);
-            $tTextDate .= " " . ltrim($tDay,"0");
 
             // hour
             $iStart = $iStart + 3; // skip "T"
@@ -115,8 +113,8 @@ function getDateTime($tLine, $tTag)
             $tTime .=  ":" . substr($tLine, $iStart, 2);
 
             if ($tTag == $tDateTimeBEG) { // beginning of date
-                $tEventDateTime = $tTextDate . " " . $tTime;
-                $tDate = $tTodayYear . "-" . $tMonthNum . "-" . $tDay ;
+                $oDate = strtotime($tTodayYear . "-" . $tMonthNum . "-" . $tDay) ;
+                $tEventDateTime = date($tDateFormat, $oDate) . " " . $tTime;
             } else {
                 $tEventDateTime .= " to " . $tTime;
             }
