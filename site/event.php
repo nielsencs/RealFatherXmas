@@ -1,4 +1,6 @@
 <?php
+require_once("zapcallib.php");
+
 $tFileCal = "calendar/Real Father Xmas appearances_rfxelves@gmail.com.ics";
 $tFileToday = "calendar/today.txt";
 $iFileModTime = filemtime($tFileToday);
@@ -8,11 +10,14 @@ $tDateTimeBEG = "DTSTART;TZID=Europe/London:";
 $tDateTimeEND = "DTEND;TZID=Europe/London:";
 
 $tEventDateTime = "";
+$tDate = "";
 
 $tFileModDate = date("d:m", $iFileModTime);
 $tTodayYear = date("Y");
 $tTodayMonth = date("m");
 $tTodayDay = date("d");
+
+$maxdate = strtotime($tTodayYear . "-12-31");
 
 if ($tFileModDate != date("d:m")) { // If we've not yet done the process today we need to.
     $myfile = fopen($tFileCal, "r") or die("Unable to open file!");
@@ -23,6 +28,9 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
 
         if ($tLine == "BEGIN:VEVENT") {
             $bLogging = true;
+            $tEventSummary = "";
+            $tEventDescription = "";
+            $tEventLocation = "";
         } else {
             if ($bLogging) { // it may just have changed!
                 getDateTime($tLine, $tDateTimeBEG);
@@ -49,7 +57,6 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
             }
 
             if ($bLogging) { // it may just have changed!
-
                 $tTag = "LOCATION:";
                 $iStart = strlen($tTag);
                 if (substr($tLine, 0, $iStart) == $tTag) {
@@ -57,9 +64,23 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
                 }
             }
 
+            if ($bLogging) { // it may just have changed!
+                $tTag = "RRULE:";
+                $iStart = strlen($tTag);
+                if (substr($tLine, 0, $iStart) == $tTag) {
+                    $tRepeatRule = getValue($tLine, $tTag);
+                    $rd = new ZCRecurringDate($tRepeatRule, strtotime($tDate));
+                    $dates = $rd->getDates($maxdate);
+                    foreach($dates as $d)
+                    {
+                        echo $tEventSummary . date('l, F j, Y ',$d) . "<br>\n";
+                    }
+                }
+            }
+
             if ($tLine == "END:VEVENT") {
                 $bLogging = false;
-                echo $tEventSummary . "" . $tEventDateTime . " at " . $tEventLocation . "<br>" . $tEventDescription . "<br><br>";
+                echo $tEventSummary . " " . $tEventDateTime . " at " . $tEventLocation . "<br>" . $tEventDescription . "<br><br>";
             }
         }
     } while ($tLine > "");
@@ -68,22 +89,23 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
 
 function getDateTime($tLine, $tTag)
 {
-    global $tTodayYear, $tEventDateTime, $tDateTimeBEG, $bLogging;
+    global $tTodayYear, $tDate, $tEventDateTime, $tDateTimeBEG, $bLogging;
     $iStart = strlen($tTag);
 
     if (substr($tLine, 0, $iStart) == $tTag) {
         if (substr($tLine, $iStart, 4) == $tTodayYear) { // this year
-            $tDate = "";
+            $tTextDate = "";
             $tTime = "";
             // month
             $iStart = $iStart + 4;
-            $monthNum  = substr($tLine, $iStart, 2);
-            $dateObj  = DateTime::createFromFormat('!m', $monthNum);
-            $monthName = $dateObj->format('F');
-            $tDate .= $monthName;
+            $tMonthNum  = substr($tLine, $iStart, 2);
+            $dateObj  = DateTime::createFromFormat('!m', $tMonthNum);
+            $tMonthName = $dateObj->format('F');
+            $tTextDate .= $tMonthName;
             // day
             $iStart = $iStart + 2;
-            $tDate .= " " . ltrim(substr($tLine, $iStart, 2),"0");
+            $tDay = substr($tLine, $iStart, 2);
+            $tTextDate .= " " . ltrim($tDay,"0");
 
             // hour
             $iStart = $iStart + 3; // skip "T"
@@ -93,7 +115,8 @@ function getDateTime($tLine, $tTag)
             $tTime .=  ":" . substr($tLine, $iStart, 2);
 
             if ($tTag == $tDateTimeBEG) { // beginning of date
-                $tEventDateTime = $tDate . " " . $tTime;
+                $tEventDateTime = $tTextDate . " " . $tTime;
+                $tDate = $tTodayYear . "-" . $tMonthNum . "-" . $tDay ;
             } else {
                 $tEventDateTime .= " to " . $tTime;
             }
