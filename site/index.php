@@ -40,11 +40,7 @@ if ($iMonth >= 8) {
 if ($iMonth >= $iMonthActive) {
   // $tHeading = "Visit Mr C from the comfort of your own home!";
   $tHeading = "Have you ever met the Real Father Christmas?";
-  // $tParaStart = 'Get the elves to organise it for you - just ';
-  $tParaStart = 'Well, your next chance is <br>';
-  $tParaStart .= 'November 22 10:00-17:30 at Way Inn<br>';
-  $tParaStart .= 'Way Inn, 268 High St, Berkhamsted HP4 1AQ<br>';
-  $tParaStart .= 'or you could get the elves to organise a special one for you - just ';
+  $tParaStart = 'Get the elves to organise it for you - just ';
 }
 
 if ($iMonth == 12 && $iDay > 24) {
