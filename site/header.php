@@ -28,31 +28,31 @@
 </head>
 
 <body>
-    <div class="headerBox">
-        <div class="header">
-            <img src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo" class="logo">
+    <header>
+        <div class="logoBox">
+            <img class="logo" src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo">
 
             <h1>Real Father Xmas</h1>
-            <p class="centerText">I look like him. I sound like him. I am him!</p>
+            <p class="centerText" style="font-size: smaller;">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
         </div>
         <div class="navBox">
             <div class="navBoxLeft">
                 <ul class="nav">
-                    <li><a href="index.html">Home</a></li> <!-- change to php when going live -->
-                    <!-- <li><a href="InPerson.php">In Person</a></li> -->
-                    <!-- <li><a href="FunStuff.php">Fun Stuff</a></li> -->
-                    <!-- <li><a href="Events.php">Events</a></li> -->
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="events.php">Events</a></li>
+                    <li><a href="inPerson.php">In Person</a></li>
+                    <li><a href="fun.php">Fun Stuff</a></li>
                     <li><a href="privacy.php">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="navBoxRight">
                 <div class="navLinks">
                     <a href="mailto:elves@realfatherxmas.com">elves@realfatherxmas.com</a>
-                    <a rel="noreferrer" href="https://www.facebook.com/realfatherxmas" target="_blank"><img src="images\Facebook.webp" alt="Facebook" class="FB"></a>
+                    <a rel="noreferrer" href="https://www.facebook.com/realfatherxmas" target="_blank"><img src="images/Facebook.png" alt="Facebook" class="FB"></a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="content">
-
-    
+    </header>
+    <div class="content" <?php if ($bSnow) {
+                                echo ' style="background-image: url(/images/SnowTrees.jpg);"';
+                            } ?>>
