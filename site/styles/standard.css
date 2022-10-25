@@ -31,8 +31,8 @@
     .content {
       flex: 1 0 auto;
       /* min-height below is 100vh - .headerBox.min-height - footer.height 
-         This ensures footer is at bootom of display when insufficient content to require scrolling.*/
-      min-height: calc(100vh - 182px - 108px);
+         This ensures footer is at bottom of display when insufficient content to require scrolling.*/
+         min-height: calc(100vh - 182px - 108px);
     }
 
     footer {
