@@ -19,9 +19,11 @@ $tTodayYear = date("Y");
 $tTodayMonth = date("m");
 $tTodayDay = date("d");
 
-$maxdate = strtotime($tTodayYear . "-12-31");
+$aEvents = array();
 
-if ($tFileModDate != date("d:m")) { // If we've not yet done the process today we need to.
+$maxdate = strtotime($tTodayYear . "-12-31"); //year end
+
+if ($tFileModDate != date("d:m")) { // If we've not yet done the process today we need to. Prevent unneccesary processing.
     $myfile = fopen($tFileCal, "r") or die("Unable to open file!");
 
     $bLogging = false;
@@ -36,6 +38,7 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
         } else {
             if ($bLogging) { // it may just have changed!
                 getDateTime($tLine, $tDateTimeBEG);
+                echo $tEventDateTime . "<br>";
             }
 
             if ($bLogging) { // it may just have changed!
@@ -75,23 +78,35 @@ if ($tFileModDate != date("d:m")) { // If we've not yet done the process today w
                     $dates = $rd->getDates($maxdate);
                     foreach($dates as $d)
                     {
-                        echo $tEventSummary . date($tDateFormat, $d) . "<br>\n";
+                        // echo $tEventSummary . date($tDateFormat, $d) . "<br>\n";
+                        $aEvents[] = [$tEventDateTime, $oDate, $tEventSummary, $tEventLocation, $tEventDescription];
                     }
                 }
             }
 
             if ($tLine == "END:VEVENT") {
                 $bLogging = false;
-                echo $tEventSummary . " " . $tEventDateTime . " at " . $tEventLocation . "<br>" . $tEventDescription . "<br><br>";
+                // echo $tEventSummary . " " . $tEventDateTime . " at " . $tEventLocation . "<br>" . $tEventDescription . "<br><br>";
+                $aEvents[] = [$tEventDateTime, $oDate, $tEventSummary, $tEventLocation, $tEventDescription];
             }
         }
     } while ($tLine > "");
+    sort($aEvents);
+    foreach($aEvents as $event){
+        echo $event[0];
+        echo $event[1];
+        echo $event[2];
+        echo $event[3];
+        echo $event[4];
+        
+        echo "<br>";
+    }
     fclose($myfile);
 }
 
 function getDateTime($tLine, $tTag)
 {
-    global $tTodayYear, $oDate, $tEventDateTime, $tDateTimeBEG, $bLogging;
+    global $tTodayYear, $oDate, $tDateFormat, $tEventDateTime, $tDateTimeBEG, $bLogging;
     $iStart = strlen($tTag);
 
     if (substr($tLine, 0, $iStart) == $tTag) {
