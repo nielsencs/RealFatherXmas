@@ -12,6 +12,7 @@
 </p></div>
 <div class="eventBox"><h3>-= Saturday 26 November 2022 =-</h3>
 <h4>--- 10:00-12:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
+<h4>--- 13:00-16:00 Mystery event ---</h4>
 </p></div>
 <div class="eventBox"><h3>-= Tuesday 29 November 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
@@ -20,10 +21,14 @@
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Thursday 01 December 2022 =-</h3>
+<h4>--- 08:00-09:00 Konnect Radio ---</h4>Go to https://www.konnectradio.com/ and click the play button underneath 'Playing Now'
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Friday 02 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
+</p></div>
+<div class="eventBox"><h3>-= Saturday 03 December 2022 =-</h3>
+<h4>--- 12:00-17:00 Bletchley ---</h4><p class="centerText">[Bletchley Highstreet, Queensway, Bletchley, Milton Keynes]</p><p class="centerText">
 </p></div>
 <div class="eventBox"><h3>-= Tuesday 06 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
@@ -35,6 +40,7 @@
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Friday 09 December 2022 =-</h3>
+<h4>--- 08:00-09:00 Konnect Radio Quiz ---</h4>Go to https://www.konnectradio.com/ and click the play button underneath 'Playing Now'
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Saturday 10 December 2022 =-</h3>
