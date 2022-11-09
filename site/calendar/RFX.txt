@@ -21,14 +21,14 @@
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Thursday 01 December 2022 =-</h3>
-<h4>--- 08:00-09:00 Konnect Radio ---</h4>Go to https://www.konnectradio.com/ and click the play button underneath 'Playing Now'
+<h4>--- 08:00-09:00 Konnect Radio ---</h4>Go to&nbsp;<a href="https://www.konnectradio.com/" id="ow1853" __is_owner="true">https://www.konnectradio.com/</a>&nbsp;and click the play button underneath 'Playing Now'
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Friday 02 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Saturday 03 December 2022 =-</h3>
-<h4>--- 12:00-17:00 Bletchley ---</h4><p class="centerText">[Bletchley Highstreet, Queensway, Bletchley, Milton Keynes]</p><p class="centerText">
+<h4>--- 12:00-17:00 Bletchley ---</h4><p class="centerText">[Bletchley Highstreet, Queensway, Bletchley, Milton Keynes]</p><p class="centerText">Bletchley Christmas Event
 </p></div>
 <div class="eventBox"><h3>-= Tuesday 06 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
@@ -40,15 +40,15 @@
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Friday 09 December 2022 =-</h3>
-<h4>--- 08:00-09:00 Konnect Radio Quiz ---</h4>Go to https://www.konnectradio.com/ and click the play button underneath 'Playing Now'
+<h4>--- 08:00-09:00 Konnect Radio Quiz ---</h4>Go to&nbsp;<a href="https://www.google.com/url?q=https://www.konnectradio.com/&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0fbQTSkk6k-NKe7Su5ZfXU" target="_blank">https://www.konnectradio.com/</a>&nbsp;and click the play button underneath &#39;Playing Now&#39;
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
 <div class="eventBox"><h3>-= Saturday 10 December 2022 =-</h3>
-<h4>--- 11:00-16:00 Locals at The Lakes ---</h4><p class="centerText">[Sir Herbert Leon Academy, Fern Grove, Bletchley, Milton Keynes MK2 3HQ]</p><p class="centerText">Annual Locals at The Lakes Christmas event
+<h4>--- 11:00-16:00 Locals of The Lakes ---</h4><p class="centerText">[Sir Herbert Leon Academy, Fern Grove, Bletchley, Milton Keynes MK2 3HQ]</p><p class="centerText">Annual Locals at The Lakes Christmas event
 </p></div>
 <div class="eventBox"><h3>-= Sunday 11 December 2022 =-</h3>
-<h4>--- 16:00-17:30 Sandfields, Swansea ---</h4><p class="centerText">[Sandfields, Swansea]</p><p class="centerText">Mr C will tour round the district and you can see him later at Legacy Church, Spring Terrace, Swansea SA1 3TD
-<h4>--- 17:30-19:00 Legacy Church, Swansea ---</h4><p class="centerText">[Legacy Church, Spring Terrace, Swansea SA1 3TD]</p><p class="centerText">Christmas celebration culminating in a chance to meet the man himself!
+<h4>--- 16:00-17:00 Sandfields, Swansea ---</h4><p class="centerText">[Sandfields, Swansea]</p><p class="centerText">Mr C will tour round the district (with a donkey!) and you can see him later at Legacy Church, Spring Terrace, Swansea SA1 3TD
+<h4>--- 18:00-20:00 Legacy Church, Swansea ---</h4><p class="centerText">[Legacy Church, Spring Terrace, Swansea SA1 3TD]</p><p class="centerText">Christmas celebration culminating in a chance to meet the man himself!
 </p></div>
 <div class="eventBox"><h3>-= Tuesday 13 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
@@ -66,6 +66,9 @@
 <div class="eventBox"><h3>-= Saturday 17 December 2022 =-</h3>
 <h4>--- 10:00-12:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
+<div class="eventBox"><h3>-= Sunday 18 December 2022 =-</h3>
+<h4>--- 13:00-15:00 The Ark Community Church ---</h4><p class="centerText">[One YMCA Woodlands Community Hub, YMCA Community Hub, Leavesden Country Park, College Rd, Abbots Langley WD5 0GU, UK]</p><p class="centerText">
+</p></div>
 <div class="eventBox"><h3>-= Tuesday 20 December 2022 =-</h3>
 <h4>--- 10:00-17:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
 </p></div>
@@ -80,3 +83,4 @@
 </p></div>
 <div class="eventBox"><h3>-= Saturday 24 December 2022 =-</h3>
 <h4>--- 10:00-12:30 Way Inn ---</h4><p class="centerText">[Way Inn, 268 High St, Berkhamsted HP4 1AQ]</p><p class="centerText">Regular appearance - See him in person for &pound;10 per child.
+<h4>--- 18:30-18:45 Private Zoom Call ---</h4>
