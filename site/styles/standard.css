@@ -150,7 +150,7 @@
       display: inline-block;
       position: relative;
       text-align: center;
-      min-height: 275px;
+      min-height: 440px;
       background: #2f4d36;
     }
 
@@ -196,7 +196,8 @@
     }
 
     .navBox a:hover {
-      color: #c5d3a0;
+      /* color: #c5d3a0; */
+      color: #fad163;
     }
 
     .navBoxLeft {
@@ -261,12 +262,12 @@
     }
 
     .brightA a {
-      color: #d0e782;
+      color: #fad163;
       font-weight: bold;
     }
 
     .brightA a:hover {
-      color: #ffe782;
+      color: #ff9900;
       font-weight: bold;
     }
 
@@ -340,4 +341,26 @@
       border-radius: 5px;
       background: #ddd;
       width: 70%;
+    }
+
+    .eventBox {
+      /* border: #b8896b 7px solid; */
+      border: #fad163 7px solid;
+      margin: 3px auto;
+      background: #fad163;
+      width: 70%;
+    }
+
+    .eventBox h3 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    .eventBox h4 {
+      font-size: .9rem;
+      font-weight: bold;
+    }
+
+    .eventBox p {
+      font-size: .8rem;
     }
