@@ -1,17 +1,13 @@
 <?php
 $bSnow = false;
 require_once 'header.php';
-require_once "eventsLoad.php";
 
 $oDate = time();
 $tYear = date("Y", $oDate);
 $oLateDate = strtotime("25 dec " . $tYear);
 
-// ############ ONLY for testing ############
-// $oDate = strtotime("17 dec " . $tYear); // uncomment and change for testing
-// ############ ONLY for testing ############
-
-$tEvent = getNextEvent($tEvents, $oDate, $oLateDate);
+require_once "eventsLoad.php";
+$tEvent = getNextEvent($tEvents, $oDate);
 
 $iMonth = date("m", $oDate);
 $iDay = date("j", $oDate);
@@ -58,7 +54,7 @@ if ($iMonth >= $iMonthActive && $oDate < $oLateDate) {
 }
 
 if ($iMonth == 12 && $iDay > 24) {
-  $tHeading = "Mr C is <em>ever so</em> tired but wishes you a Happy Christmas!.";
+  $tHeading = "Mr C is <em>ever so</em> tired but wishes you a Happy Christmas!";
   $tParaStart = "If you need anything, do ";
 }
 ?>
@@ -102,10 +98,9 @@ if ($iMonth == 12 && $iDay > 24) {
 <?php
 require_once 'footer.php';
 
-function getNextEvent($tEvents, $oDate, $oLateDate)
+function getNextEvent($tEvents, $oDate)
 {
   $tEvent = "";
-  if ($oDate < $oLateDate) {
     $tDateStart = "<h3>-= ";
     $tDateEnd = " =-</h3>";
     $tEventStart = '<div class="eventBox">';
@@ -117,13 +112,11 @@ function getNextEvent($tEvents, $oDate, $oLateDate)
       if ($tEventDate < $oDate) { // if the event is in the past
         $tEvents = substr($tEvents, strpos($tEvents, $tEventStart, $iPos2)); // move on
       } else {
-        // $iEventPos1 = strpos($tEvents, '<div class="eventBox">');
         $iEventPos2 = strpos($tEvents, '</p></div>');
         $tEvent = substr($tEvents, 0, $iEventPos2 + 10);
         $tEvents = "";
       }
     }
-  }
   return $tEvent;
 }
 
