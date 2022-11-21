@@ -38,11 +38,11 @@
         <div class="navBox">
             <div class="navBoxLeft">
                 <ul class="nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="events.php">Events</a></li>
-                    <li><a href="inPerson.php">In Person</a></li>
-                    <li><a href="fun.php">Fun Stuff</a></li>
-                    <li><a href="privacy.php">Privacy Policy</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="events">Events</a></li>
+                    <li><a href="inPerson">In Person</a></li>
+                    <li><a href="fun">Fun Stuff</a></li>
+                    <li><a href="privacy">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="navBoxRight">
