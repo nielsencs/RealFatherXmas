@@ -1,8 +1,8 @@
 <?php
 $oDate = time();
 // ############ ONLY for testing ############
-// $tYear = date("Y", $oDate);
-// $oDate = strtotime("17:20 23 nov " . $tYear); // uncomment and change for testing
+$tYear = date("Y", $oDate);
+$oDate = strtotime("17:20 30 nov " . $tYear); // uncomment and change for testing
 // ############ ONLY for testing ############
 
 $tFile = 'calendar/RFX.txt';
