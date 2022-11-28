@@ -1,8 +1,8 @@
 <?php
+$oDate = time();
 // ############ ONLY for testing ############
-// $oDate = time();
 // $tYear = date("Y", $oDate);
-// $oDate = strtotime("24 dec " . $tYear); // uncomment and change for testing
+// $oDate = strtotime("17:20 23 nov " . $tYear); // uncomment and change for testing
 // ############ ONLY for testing ############
 
 $tFile = 'calendar/RFX.txt';
@@ -17,15 +17,21 @@ $tEvents = trimPastEvents($tEvents, $oDate);
 function trimPastEvents($tEvents, $oDate)
 {
     $bLooking = true;
+    $tEventStart = '<div class="eventBox">';
     $tDateStart = "<h3>-= ";
     $tDateEnd = " =-</h3>";
-    $tEventStart = '<div class="eventBox">';
+    $tTimeStart = "<h4>--- ";
 
     while ($bLooking && $tEvents > "") {
             $iPos1 = strpos($tEvents, $tDateStart);
       $iPos2 = strpos($tEvents, $tDateEnd);
-      $tEventDate = strtotime(substr($tEvents, $iPos1 + 7, $iPos2 - $iPos1 - 7));
-      if ($tEventDate < $oDate) { // if the event is in the past
+      $iPos3 = strpos($tEvents, $tTimeStart);
+      $tEventDate = substr($tEvents, $iPos1 + 7, $iPos2 - $iPos1 - 7);
+      $tEventTime = substr($tEvents, $iPos3 + 14, 5);
+      echo "<!-- FFF $tEventTime $tEventDate -->";
+      $oEventDate = strtotime($tEventTime . " " . $tEventDate);
+      // $oEventDate = strtotime($tEventDate);
+      if ($oEventDate < ($oDate-(17*60*60))) { // if the event is in the past
         if(strpos($tEvents, $tEventStart, $iPos2)>0){ // if there are more events
             $tEvents = substr($tEvents, strpos($tEvents, $tEventStart, $iPos2)); // move on
         }else{

@@ -100,23 +100,8 @@ require_once 'footer.php';
 
 function getNextEvent($tEvents, $oDate)
 {
-  $tEvent = "";
-    $tDateStart = "<h3>-= ";
-    $tDateEnd = " =-</h3>";
-    $tEventStart = '<div class="eventBox">';
-
-    while ($tEvent == "" && $tEvents > "") {
-      $iPos1 = strpos($tEvents, $tDateStart);
-      $iPos2 = strpos($tEvents, $tDateEnd);
-      $tEventDate = strtotime(substr($tEvents, $iPos1 + 7, $iPos2 - $iPos1 - 7));
-      if ($tEventDate < $oDate) { // if the event is in the past
-        $tEvents = substr($tEvents, strpos($tEvents, $tEventStart, $iPos2)); // move on
-      } else {
-        $iEventPos2 = strpos($tEvents, '</p></div>');
-        $tEvent = substr($tEvents, 0, $iEventPos2 + 10);
-        $tEvents = "";
-      }
-    }
+  $iEventPos2 = strpos($tEvents, '</p></div>');
+  $tEvent = substr($tEvents, 0, $iEventPos2 + 10);
   return $tEvent;
 }
 
