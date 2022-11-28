@@ -7,7 +7,7 @@ $tYear = date("Y", $oDate);
 $oLateDate = strtotime("25 dec " . $tYear);
 
 require_once "eventsLoad.php";
-$tEvent = getNextEvent($tEvents, $oDate);
+$tEvent = getFirstEvent($tEvents);
 
 $iMonth = date("m", $oDate);
 $iDay = date("j", $oDate);
@@ -98,11 +98,10 @@ if ($iMonth == 12 && $iDay > 24) {
 <?php
 require_once 'footer.php';
 
-function getNextEvent($tEvents, $oDate)
+function getFirstEvent($tEvents)
 {
-  $iEventPos2 = strpos($tEvents, '</p></div>');
-  $tEvent = substr($tEvents, 0, $iEventPos2 + 10);
-  return $tEvent;
+  $iEventPos = strpos($tEvents, '</p></div>');
+  return substr($tEvents, 0, $iEventPos + 10); //
 }
 
 ?>
