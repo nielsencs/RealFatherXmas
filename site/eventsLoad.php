@@ -2,8 +2,8 @@
 // todo: replace all this with direct access to Google calendar events
 $oDate = time();
 // ############ ONLY for testing ############
-$tYear = date("Y", $oDate);
-$oDate = strtotime("17:01 29 nov " . $tYear); // uncomment and change for testing
+// $tYear = date("Y", $oDate);
+// $oDate = strtotime("17:01 29 nov " . $tYear); // uncomment and change for testing
 // ############ ONLY for testing ############
 
 $tFile = 'calendar/RFX.txt';
