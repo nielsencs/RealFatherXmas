@@ -107,7 +107,8 @@ white
     }
 
     p {
-      margin-top: 14px;
+      margin-top: 0.5rem;
+      margin-left: 0.5rem;
     }
 
     ol,
