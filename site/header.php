@@ -41,6 +41,7 @@
                     <li><a href="index">Home</a></li>
                     <li><a href="events">Events</a></li>
                     <li><a href="inPerson">In Person</a></li>
+                    <li><a href="reviews">Reviews</a></li>
                     <li><a href="fun">Fun Stuff</a></li>
                     <li><a href="privacy">Privacy Policy</a></li>
                 </ul>

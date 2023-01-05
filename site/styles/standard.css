@@ -250,7 +250,7 @@ white
       padding: 0 13px 0 0;
     }
 
-    @media (max-width: 840px) {
+    @media (max-width: 1000px) {
       .nav li {
         display: list-item;
         padding: 3px;
@@ -271,6 +271,11 @@ white
       padding: 7px;
       background-color: white;
       color: black;
+      border-radius: 5px;
+    }
+
+    .greenGrad {
+      background: linear-gradient(140deg, white 0%, #2f4d36 100%);
     }
 
     .main h2 h3 p {
