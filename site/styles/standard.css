@@ -1,3 +1,20 @@
+/*
+standard.css for RealFatherXmas.com by Carl Nielsen
+
+colours:
+black
+#2f4d36 dark green
+#8c9d52 olive
+#333333 dark grey
+#4c150e dark red
+#912516 red
+#c52c17 light red
+#ff9900 orange
+#fad163 gold
+#cccccc light grey
+#dddddd pale grey
+white
+*/
     * {
       margin: 0;
       padding: 0;
@@ -10,8 +27,8 @@
 
     body {
       font-family: 'Nunito', sans-serif;
-      color: White;
-      background: #333333;
+      color: white;
+      background-color: #333333;
       display: grid;
     }
 
@@ -40,7 +57,7 @@
       width: 100%;
 
       background-color: #4c150e;
-      color: Gainsboro;
+      color: #dddddd;
       list-style: none;
       text-align: center;
       padding: 0 0 1.2rem 0;
@@ -51,7 +68,7 @@
 
     h1 {
       font-family: 'Playfair Display', serif;
-      color: #fff;
+      color: white;
       margin-top: 7px;
       margin-bottom: 7px;
       font-size: 2.5rem;
@@ -123,7 +140,7 @@
     textarea {
       width: 100%;
       padding: 12px;
-      border: 1px solid #ccc;
+      border: 1px solid #dddddd;
       border-radius: 4px;
       box-sizing: border-box;
       margin-top: 6px;
@@ -151,7 +168,7 @@
       position: relative;
       text-align: center;
       min-height: 490px;
-      background: #2f4d36;
+      background-color: #2f4d36;
     }
 
     .center {
@@ -196,7 +213,6 @@
     }
 
     .navBox a:hover {
-      /* color: #c5d3a0; */
       color: #fad163;
     }
 
@@ -337,17 +353,16 @@
     .funMenu li {
       display: block;
       margin: 7px auto;
-      border: solid 3px #ccc;
+      border: solid 3px #cccccc;
       border-radius: 5px;
-      background: #ddd;
+      background-color: #dddddd;
       width: 70%;
     }
 
     .eventBox {
-      /* border: #b8896b 7px solid; */
       border: #fad163 7px solid;
       margin: 3px auto;
-      background: #fad163;
+      background-color: #fad163;
       width: 70%;
     }
 
