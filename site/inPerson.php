@@ -11,14 +11,19 @@ if ($bForm) {
 <div class="main">
     <div class="blocks" style="background-color: #2f341b;">
         <h2>Come and see him In Person</h2>
-        <p>You can come and see Mr C in person on Wednesdays, Thursdays, Fridays and Saturday mornings during December at:</p>
+        <!-- <p>You can come and see Mr C in person on Wednesdays, Thursdays, Fridays and Saturday mornings during December at:</p>
         <address>
             The Way Inn<br>
             268 High Street<br>
             Berkhamsted<br>
             Hertfordshire<br>
             HP4 1BL<br>
-        </address>
+        </address> -->
+        <!-- https://youtu.be/KPDWwExy3_Q?feature=shared -->
+        <div class="responsive-iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KPDWwExy3_Q?si=MuxtEhwMgzAJjjMU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
     </div>
     <div class="blocks MrCBackground brightA">
         <h2>He could come to Your Place!</h2>
