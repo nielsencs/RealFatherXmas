@@ -48,9 +48,12 @@ if ($iMonth >= 8) {
 if ($iMonth >= $iMonthActive && $oDate < $oLateDate) {
   // $tHeading = "Visit Mr C from the comfort of your own home!";
   $tHeading = "Have you ever met the Real Father Christmas?";
-  // $tParaStart = 'Get the elves to organise it for you - just ';
-  $tParaStart = 'Well, your next chance is';
-  $tParaBott = 'or you could get the elves to organise a special one for you - just ';
+  if($tEvent > "") {
+    $tParaStart = 'Well, your next chance is';
+    $tParaBott = 'or you could get the elves to organise a special one for you - just ';
+  } else {
+    $tParaStart = 'Get the elves to organise it for you - just ';
+  }
 }
 
 if ($iMonth == 12 && $iDay > 24) {

@@ -30,7 +30,7 @@
 <body>
     <header>
         <div class="logoBox">
-            <img class="logo" src="images/RealFatherXmasLogo3_TRANS.png" alt="RealFatherXmas Logo">
+        <img class="logo" src="images/IMG_6545_Face.png" alt="RealFatherXmas Logo">
 
             <h1>Real Father Xmas</h1>
             <p class="centerText" style="font-size: smaller;">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
@@ -41,6 +41,7 @@
                     <li><a href="index">Home</a></li>
                     <li><a href="events">Events</a></li>
                     <li><a href="inPerson">In Person</a></li>
+                    <li><a href="reviews">Reviews</a></li>
                     <li><a href="fun">Fun Stuff</a></li>
                     <li><a href="privacy">Privacy Policy</a></li>
                 </ul>
