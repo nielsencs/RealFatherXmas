@@ -1,14 +1,17 @@
 <div class="eventBox"><h3>-= Saturday 26 November 2023 =-</h3>
 <h4>--- 13:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4><p class="centerText">[Pitstone Memorial Hall]</p><p class="centerText">
 </p></div>
+<div class="eventBox"><h3>-= Friday 01 December 2023 =-</h3>
+<h4>--- 08:00-09:00 Konnect Radio ---</h4>Go to <a href="https://www.konnectradio.com/" id="ow1853" __is_owner="true">https://www.konnectradio.com/</a> and click the play button underneath 'Playing Now'
+</p></div>
 <div class="eventBox"><h3>-= Saturday 02 December 2023 =-</h3>
 <h4>--- 12:00-17:00 Bletchley ---</h4><p class="centerText">[Bletchley Highstreet, Queensway, Bletchley, Milton Keynes]</p><p class="centerText">Bletchley Christmas Event
 </p></div>
 <div class="eventBox"><h3>-= Saturday 09 December 2023 =-</h3>
-<h4>--- 11:00-16:00 Locals of The Lakes ---</h4><p class="centerText">[Sir Herbert Leon Academy, Fern Grove, Bletchley, Milton Keynes MK2 3HQ]</p><p class="centerText">Annual Locals at The Lakes Christmas event
+<h4>--- 11:00-16:00 Locals of The Lakes ---</h4><p class="centerText">[Sir Herbert Leon Academy, Fern Grove, Bletchley, Milton Keynes MK2 3HQ]</p><p class="centerText">Annual Locals Of the Lakes Christmas event
 </p></div>
 <div class="eventBox"><h3>-= Sunday 17 December 2023 =-</h3>
-<h4>--- 15:30-17:30 The Ark Community Church ---</h4><p class="centerText">[One YMCA Woodlands Community Hub, YMCA Community Hub, Leavesden Country Park, College Rd, Abbots Langley WD5 0GU, UK]</p><p class="centerText">
+<h4>--- 15:00-17:00 The Ark Community Church ---</h4><p class="centerText">[One YMCA Woodlands Community Hub, YMCA Community Hub, Leavesden Country Park, College Rd, Abbots Langley WD5 0GU, UK]</p><p class="centerText">
 </p></div>
 <div class="eventBox"><h3>-= Wednesday 20 December 2023 =-</h3>
 <h4>--- 11:00-17:00 New Hope Shop ---</h4><p class="centerText">[New Hope Shop\, 165 New Rd\, Croxley Green\, Rickmansworth WD3 3HB]</p><p class="centerText">
