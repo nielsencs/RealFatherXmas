@@ -1,4 +1,4 @@
-<div class="eventBox"><h3>-= Saturday 26 November 2023 =-</h3>
+<div class="eventBox"><h3>-= Saturday 25 November 2023 =-</h3>
 <h4>--- 13:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4>
 <p class="centerText"><a href="https://maps.app.goo.gl/vCzdWp9X3fjgCdKB8" target="_blank">Location: Pitstone Memorial Hall<br>(Click to show on Google Maps)</a></p><p class="centerText"></p>
 </div>
