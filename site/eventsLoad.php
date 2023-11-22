@@ -12,7 +12,7 @@ $tEvents = fread($myfile, filesize($tFile));
 fclose($myfile);
 
 // $tEvents = str_replace("£", "&pound;", $tEvents); // weirdly doesn't work
-$tEvents .= '</p></div>'; // terrible kludge - missing last one in RFX.txt
+// $tEvents .= '</p></div>'; // terrible kludge - missing last one in RFX.txt
 $tEvents = trimPastEvents($tEvents, $oDate);
 
 function trimPastEvents($tEvents, $oDate)

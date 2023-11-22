@@ -103,8 +103,8 @@ require_once 'footer.php';
 
 function getFirstEvent($tEvents)
 {
-  $iEventPos = strpos($tEvents, '</p></div>');
-  return substr($tEvents, 0, $iEventPos + 10); //
+  $iEventPos = strpos($tEvents, '</div>');
+  return substr($tEvents, 0, $iEventPos + 6); //
 }
 
 ?>
