@@ -1,29 +1,35 @@
 <div class="eventBox"><h3>-= Saturday 25 November 2023 =-</h3>
 <h4>--- 13:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4>
 <p class="centerText"><a href="https://maps.app.goo.gl/vCzdWp9X3fjgCdKB8" target="_blank">Location: Pitstone Memorial Hall<br>(Click to show on Google Maps)</a></p><p class="centerText"></p>
+<p class="centerText"><a href="https://www.facebook.com/100087749235511/posts/pfbid04uKftw7MZCqQQuaMVRNA8RGrZtb17amH3EZjFUncVtsZ3XTueb3SdYGeqafmBfool/?d=n&mibextid=WC7FNe" target="_blank"><img src="images\404161082_306336115634694_8370170145693898646_n.jpg" alt="Event image" width=7%><br>Facebook Page</a>
 </div>
 
 <div class="eventBox"><h3>-= Friday 01 December 2023 =-</h3>
 <h4>--- 08:00-09:00 Konnect Radio ---</h4>
 <p class="centerText">Go to <a href="https://www.konnectradio.com/" id="ow1853" __is_owner="true">https://www.konnectradio.com/</a> and click the play button underneath 'Playing Now'</p>
+<p class="centerText"><a href="https://www.facebook.com/konnectradio" target="_blank"><img src="images\KonnectLogo.png" alt="Event image" width=14%><br>Facebook Page</a>
 </div>
 
 <div class="eventBox"><h3>-= Saturday 02 December 2023 =-</h3>
 <h4>--- 12:00-17:00 Bletchley ---</h4>
 <p class="centerText"><a href="https://maps.app.goo.gl/XM9HroXkmJRuANqR6" target="_blank">Location: Bletchley Highstreet, Queensway, Bletchley, Milton Keynes<br>(Click to show on Google Maps)</a></p><p class="centerText">Bletchley Christmas Event</p>
+<p class="centerText"><a href="https://www.facebook.com/bfs.towncouncil" target="_blank"><img src="images\395316442_713290970836097_4502151713919174033_n.png" alt="Event image" width=14%><br>Facebook Page</a>
 </div>
 
 <div class="eventBox"><h3>-= Saturday 09 December 2023 =-</h3>
-<h4>--- 11:00-16:00 Locals of The Lakes ---</h4>
-<p class="centerText"><a href="https://maps.app.goo.gl/hiWzoaX2ZpbwuVBM9" target="_blank">Location: Sir Herbert Leon Academy, Fern Grove, Bletchley, Milton Keynes MK2 3HQ<br>(Click to show on Google Maps)</a></p><p class="centerText">Annual Locals Of the Lakes Christmas event</p>
+<h4>--- 11:00-16:00 Locals Of the Lakes ---</h4>
+<p class="centerText"><a href="https://maps.app.goo.gl/SfBszoprDuy1AECE6" target="_blank">Location: St Frideswide's Water Eaton, Drayton Rd, Water Eaton, Bletchley, Milton Keynes MK2 3RR<br>(Click to show on Google Maps)</a></p><p class="centerText">Annual Locals Of the Lakes Christmas event</p>
+<p class="centerText"><a href="https://www.facebook.com/events/329338866626374" target="_blank"><img src="images\402274441_10160337694704965_3173057967855964327_n.jpg" alt="Event image" width=14%><br>Facebook Page</a>
 </div>
 
 <div class="eventBox"><h3>-= Sunday 17 December 2023 =-</h3>
 <h4>--- 15:00-17:00 The Ark Community Church ---</h4>
 <p class="centerText"><a href="https://maps.app.goo.gl/SrWhsKhf2t76HUgM9" target="_blank">Location: One YMCA Woodlands Community Hub, YMCA Community Hub, Leavesden Country Park, College Rd, Abbots Langley WD5 0GU, UK<br>(Click to show on Google Maps)</a></p><p class="centerText"></p>
+<p class="centerText"><!-- a href="" target="_blank"><img src="images\" alt="Event image" width=14%><br>Facebook Page</a-->
 </div>
 
 <div class="eventBox"><h3>-= Wednesday 20 December 2023 =-</h3>
 <h4>--- 11:00-17:00 New Hope Shop ---</h4>
 <p class="centerText"><a href="https://maps.app.goo.gl/dwnHAR4CekrBGomE7" target="_blank">Location: New Hope Shop\, 165 New Rd\, Croxley Green\, Rickmansworth WD3 3HB<br>(Click to show on Google Maps)</a></p><p class="centerText"></p>
+<p class="centerText"><!-- a href="" target="_blank"><img src="images\" alt="Event image" width=14%><br>Facebook Page</a-->
 </div>
