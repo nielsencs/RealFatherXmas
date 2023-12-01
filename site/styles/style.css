@@ -37,8 +37,46 @@ body {
 
 header {
     /* use min-height in .content calc() */
-    min-height: 182px;
+    /* Not sure if we still need this value? */
+    /* min-height: 182px; */
     background-color: var(--clr-darkgreen);
+}
+
+.newLogoBox {
+    padding: 1vw;
+}
+
+.newLogoBox__inner {
+    margin: auto;
+    display: flex;
+    gap: 1vw;
+    max-width: clamp(300px, 90vw, 1000px);
+    align-items: center;
+}
+
+.newLogoBox__image {
+    width: 20vw;
+    max-width: 200px;
+}
+
+.newLogoBox__heading-1 {
+    line-height: 1;
+    font-size: clamp(20px, 5vw, 64px); /* Overriding rules set on the h1 */
+    margin: unset; /* Overriding rules set on the h1 */
+}
+
+.newLogoBox__content {
+    display: flex;
+    flex: 1;
+    gap: 0.5vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.newLogoBox__strapline {
+    font-size: clamp(12px, 3vw, 32px); 
 }
 
 .logoBox {
@@ -197,6 +235,7 @@ a:hover {
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .item {
