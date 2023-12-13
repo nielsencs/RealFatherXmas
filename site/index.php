@@ -13,10 +13,10 @@ $iMonth = date("m", $oDate);
 $iDay = date("j", $oDate);
 
 $iMonthActive = 10;
-$tImage = "images/MrCTop.jpg";
+$tImage = "images/MrC.jpg";
 $tImageAlt = "Mr C sitting by his tree!";
 if ($iMonth < $iMonthActive || ($iMonth == 12 && $iDay > 24)) {
-  $tImage = "images/MrCSnoozeTop.jpg";
+  $tImage = "images/MrCSnooze.jpg";
   $tImageAlt = "Mr C snoozing after a long Christmas season!";
 }
 
@@ -61,19 +61,20 @@ if ($iMonth == 12 && $iDay > 24) {
   $tParaStart = "If you need anything, do ";
 }
 ?>
-<div class="main">
-  <div class="imageContainer">
-    <img src="<?php echo $tImage; ?>" alt="<?php echo $tImageAlt; ?>" style="width:100%;">
-    <div class="centerMiddle brightA">
-      <h2 style="color:#fff"><?php echo $tHeading; ?></h2>
+<div class="main home">
+  <div class="item imageContainer">
+    <img src="<?php echo $tImage; ?>" class="main__img" alt="<?php echo $tImageAlt; ?>">
+  </div>
+  <div class="item">
+      <h2><?php echo $tHeading; ?></h2>
       <?php if ($iMonth >= $iMonthActive) { ?>
         <p class="centerText" style="color: #fff; line-height: 133%;"><?php echo $tParaStart; ?></p>
-        <?php
-        echo $tEvent;
-        ?>
-        <p class="centerText" style="color: #fff; line-height: 133%;"><?php echo $tParaBott . $tParaEmail . $tFormFill; ?>.</p>
+
+        <?php echo $tEvent; ?>
+
+        <p><?php echo $tParaBott . $tParaEmail . $tFormFill; ?>.</p>
       <?php } else { ?>
-        <p class="centerText" style="color: #fff; line-height: 133%;"><?php echo $tParaStart . $tParaEmail . $tFormFill; ?>.</p>
+        <p><?php echo $tParaStart . $tParaEmail . $tFormFill; ?>.</p>
       <?php } ?>
 
     </div>
