@@ -1,10 +1,13 @@
 :root {
     --clr-darkgreen: #004030;
-    --clr-gold: #fad163;
+    --clr-lightgreen: #8c9d52;
     --clr-darkgold: #dd9000;
-    --clr-red: #bb0000;
+    --clr-gold: #fad163;
     --clr-darkred: #550000;
-    --clr-midgrey: #333333;
+    --clr-red: #bb0000;
+    --clr-darkgrey: #333333;
+    --clr-midgrey: #cccccc;
+    --clr-lightgrey: #dddddd;
     --clr-light: #ffefdf;
 }
 
@@ -27,7 +30,7 @@ html {
 body {
     font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--clr-light);
-    background-color: var(--clr-midgrey);
+    background-color: var(--clr-darkgrey);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -189,7 +192,7 @@ a:hover {
 
 .container {
     width: 100%;
-    background-color: var(--clr-midgrey);
+    background-color: var(--clr-darkgrey);
 }
 
 .main {
@@ -309,4 +312,30 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.funMenuBox {
+    margin: auto;
+    border: dotted 3px #8c9d52;
+    border-radius: 14px;
+    width: 70%;
+}
+
+.funMenu {
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.funMenu li {
+    display: block;
+    margin: 7px auto;
+    border: solid 3px var(--clr-midgrey);
+    border-radius: 5px;
+    background-color: var(--clr-lightgrey);
+    width: 70%;
+}
+
+.kristos {
+    color: var(--clr-lightgreen);
 }
