@@ -13,12 +13,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 
     <link rel="canonical" href="https://www.realfatherxmas.com">
-    <link rel="stylesheet" type="text/css" href="styles/resetRichardClark.css">
-
-    <link rel="stylesheet" type="text/css" href="styles/standard.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <?php
     if ($bSnow) {
@@ -28,32 +28,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="logoBox">
-        <img class="logo" src="images/IMG_6545_Face.png" alt="RealFatherXmas Logo">
+    <div class="content" <?php if ($bSnow) {
+                                echo ' style="background-image: url(/images/SnowTrees.jpg);"';
+                            } ?>>
+        <header>
+            <div class="newLogoBox">
+                <div class="newLogoBox__inner">
+                    <img class="newLogoBox__image"
+                         src="images/IMG_6545_Face.png"
+                         alt="RealFatherXmas Logo - Mr C's smiling face!">
+                    <div class="newLogoBox__content">
+                        <h1 class="newLogoBox__heading-1">Real Father Xmas</h1>
+                        <div class="newLogoBox__strapline">I&nbsp;look&nbsp;like&nbsp;him.
+                            I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h1>Real Father Xmas</h1>
-            <p class="centerText" style="font-size: smaller;">I&nbsp;look&nbsp;like&nbsp;him. I&nbsp;sound&nbsp;like&nbsp;him. I&nbsp;am&nbsp;him!</p>
-        </div>
-        <div class="navBox">
-            <div class="navBoxLeft">
+            <div class="navBox">
                 <ul class="nav">
                     <li><a href="index">Home</a></li>
                     <li><a href="events">Events</a></li>
                     <li><a href="inPerson">In Person</a></li>
                     <li><a href="reviews">Reviews</a></li>
                     <li><a href="fun">Fun Stuff</a></li>
-                    <li><a href="privacy">Privacy Policy</a></li>
                 </ul>
             </div>
-            <div class="navBoxRight">
-                <div class="navLinks">
-                    <a href="mailto:elves@realfatherxmas.com">elves@realfatherxmas.com</a>
-                    <a rel="noreferrer" href="https://www.facebook.com/realfatherxmas" target="_blank"><img src="images/Facebook.png" alt="Facebook" class="FB"></a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="content" <?php if ($bSnow) {
-                                echo ' style="background-image: url(/images/SnowTrees.jpg);"';
-                            } ?>>
+        </header>
