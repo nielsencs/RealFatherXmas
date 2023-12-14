@@ -281,8 +281,14 @@ a:hover {
     width: 100%;
 }
 
-.back_darkred {
+.MrCBackground {
     background-color: var(--clr-darkred);
+    /* background-color: #4c150e; */
+    background-image: url(/images/IMG_6537_SittingCutout.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    min-height: 587px;
+    text-align: left;
 }
 
 .greenGrad {

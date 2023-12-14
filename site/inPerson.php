@@ -21,7 +21,7 @@ if ($bForm) {
         </div>
         
     </div>
-    <div class="item width_100 back_darkred">
+    <div class="item width_100 MrCBackground">
         <h2>He could come to Your Place!</h2>
         <p>Wouldn't it be wonderful to have an encounter with the Real Father Christmas? Well, you can!</p>
         <p>It doesn't matter whether you're young or old; a small group or a crowd.

@@ -18,7 +18,6 @@
         rel="stylesheet">
 
     <link rel="canonical" href="https://www.realfatherxmas.com">
-    <!-- <link rel="stylesheet" type="text/css" href="styles/standard.css"> -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <?php
@@ -36,7 +35,7 @@
             <div class="newLogoBox">
                 <div class="newLogoBox__inner">
                     <img class="newLogoBox__image"
-                         src="images/IMG_6545_Face.png" 
+                         src="images/IMG_6545_Face.png"
                          alt="RealFatherXmas Logo - Mr C's smiling face!">
                     <div class="newLogoBox__content">
                         <h1 class="newLogoBox__heading-1">Real Father Xmas</h1>
@@ -46,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="navBox">
                 <ul class="nav">
                     <li><a href="index">Home</a></li>
