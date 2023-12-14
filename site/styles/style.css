@@ -277,8 +277,9 @@ a:hover {
     font-size: .8rem;
 }
 
-.width_100 {
+.eventImage{
     width: 100%;
+    max-width: 200px;
 }
 
 .MrCBackground {
