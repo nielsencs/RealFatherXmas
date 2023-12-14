@@ -254,7 +254,7 @@ a:hover {
 }
 
 .eventBox {
-    width: 70%;
+    width: 90%;
     border: var(--clr-gold) 7px solid;
     border-radius: 7px;
     margin: 3px auto;
