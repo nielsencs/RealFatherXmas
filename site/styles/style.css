@@ -245,6 +245,10 @@ a:hover {
     color: var(--clr-light);
 }
 
+width_100{
+    width: 100%;
+}
+
 .imageContainer {
     border: var(--clr-darkgreen) 7px solid;
 }
