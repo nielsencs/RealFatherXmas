@@ -8,28 +8,28 @@ if ($bForm) {
     $tFormFill = " or fill in the form below";
 }
 ?>
-<div class="main">
-    <div class="blocks" style="background-color: #2f341b;">
+<div class="main inPerson">
+    <div class="item width_100">
         <h2>Come and see him In Person</h2>
-        <!-- <p>You can come and see Mr C in person on Wednesdays, Thursdays, Fridays and Saturday mornings during December at:</p>
-        <address>
-            The Way Inn<br>
-            268 High Street<br>
-            Berkhamsted<br>
-            Hertfordshire<br>
-            HP4 1BL<br>
-        </address> -->
-        <!-- https://youtu.be/KPDWwExy3_Q?feature=shared -->
         <div class="responsive-iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KPDWwExy3_Q?si=MuxtEhwMgzAJjjMU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560"
+            height="315"
+            src="https://www.youtube.com/embed/KPDWwExy3_Q?si=MuxtEhwMgzAJjjMU"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-
+        
     </div>
-    <div class="blocks MrCBackground brightA">
+    <div class="item width_100 MrCBackground">
         <h2>He could come to Your Place!</h2>
-        <p>Wouldn't it be wonderful to have an encounter with the Real Father Christmas? Well, you can! It doesn't matter whether you're young or old;
-            a small group or a crowd. Maybe you're planning a special party at home with the kids, or you'd like him to appear at your business opening?</p>
-        <p>Whatever the occasion throughout November and December - just drop us an <a href="mailto:elves@realfatherxmas.com">email</a> <?php echo $tFormFill; ?> and we'll get back to you with a quotation.</p>
+        <p>Wouldn't it be wonderful to have an encounter with the Real Father Christmas? Well, you can!</p>
+        <p>It doesn't matter whether you're young or old; a small group or a crowd.
+            Maybe you're planning a special party at home with the kids,
+            or you'd like him to appear at your business opening?</p>
+        <p>Whatever the occasion throughout November and December -
+            just drop us an <a href="mailto:elves@realfatherxmas.com">email</a>
+            <?php echo $tFormFill; ?> and we'll get back to you with a quotation.</p>
     </div>
 <?php
 if ($bForm) {

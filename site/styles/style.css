@@ -1,11 +1,14 @@
 :root {
-    --clr-darkgreen: #003322;
-    --clr-gold: #fad163;
+    --clr-darkgreen: #004030;
+    --clr-lightgreen: #8c9d52;
     --clr-darkgold: #dd9000;
+    --clr-gold: #fad163;
+    --clr-darkred: #550000;
     --clr-red: #bb0000;
-    --clr-darkred: #4c0000;
-    --clr-midgrey: #333333;
-    --clr-light: #ffeedd;
+    --clr-darkgrey: #333333;
+    --clr-midgrey: #cccccc;
+    --clr-lightgrey: #dddddd;
+    --clr-light: #ffefdf;
 }
 
 * {
@@ -20,84 +23,99 @@
 }
 
 html {
-    /* default is 16px this gives 17.4px on a 1080p display and 13.5 on a 300 wide display */
-    font-size: calc(12px + .5vw);
+    /* default is 16px this gives 15.56px on a 1080p display and 10.1 on a 300 wide display */
+    font-size: calc(8px + .7vw);
 }
 
 body {
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--clr-light);
-    /* background-color: var(--clr-light); */
-    background-color: var(--clr-midgrey);
+    background-color: var(--clr-darkgrey);
     margin: 0;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
 }
 
-/* .container-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-} */
-
 header {
-    /* use min-height in .content calc() */
-    min-height: 182px;
     background-color: var(--clr-darkgreen);
 }
 
-.logoBox {
-    width: 27rem;
-    /* height: 91px; */
-    display: block;
-    margin: 1rem auto;
+.newLogoBox {
+    padding: 1vw;
+}
+
+.newLogoBox__inner {
+    margin: auto;
+    display: flex;
+    max-width: clamp(260px, 49vw, 582px);
+    align-items: center;
+}
+
+.newLogoBox__image {
+    width: clamp(50px, 7vw, 150px);
+}
+
+.newLogoBox__heading-1 {
+    line-height: 1;
+    font-size: clamp(20px, 5vw, 49px);
+    /* Overriding rules set on the h1 */
+    margin: unset;
+    /* Overriding rules set on the h1 */
+}
+
+.newLogoBox__content {
+    display: flex;
+    flex: 1;
+    gap: 0.5vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.newLogoBox__strapline {
+    font-size: clamp(9px, 2vw, 18px);
 }
 
 .logo {
     float: left;
     width: 5.6rem;
-  }
+}
 
 .content {
     flex: 1 0 auto;
-    /* min-height below is 100vh - .headerBox.min-height - footer.height 
+    /* min-height below is 100vh - footer height 
            This ensures footer is at bottom of display when insufficient content to require scrolling.*/
-    min-height: calc(100vh - 182px - 108px);
+    min-height: calc(100vh - 88px);
 }
 
 .nav {
-    display: flexbox;
+    display: flex;
+    justify-content: center;
     font-family: 'Nunito', sans-serif;
     margin-top: 5px;
     font-weight: lighter;
-    /* text-align: left; */
-    /* list-style: none; */
-  }
-  
-  .nav li {
+    border-top: solid 1px;
+}
+
+.nav li {
+    display: flex;
     padding: 0 13px 0 0;
-  }
-  
-  @media (max-width: 1000px) {
-    .nav li {
-      display: list-item;
-      padding: 3px;
-    }
-  }
-  
-  .nav li a {
+}
+
+.footer .nav li {}
+
+.nav li a {
     text-decoration: none;
     font-weight: normal;
     padding: 3px;
     color: var(--clr-light);
-  }
+}
 
-  .nav li a:hover {
+.nav li a:hover {
     color: var(--clr-gold);
-  }
+}
 
 footer {
     left: 0;
@@ -109,7 +127,7 @@ footer {
     text-align: center;
     padding: 0 0 1.2rem 0;
     /* use height in .content calc() */
-    height: 77px;
+    height: 88px;
 }
 
 
@@ -151,7 +169,6 @@ h4 {
 }
 
 p {
-    /* color: var(--clr-light); */
     margin-top: 0.5rem;
     margin-left: 0.5rem;
 }
@@ -175,66 +192,79 @@ a:hover {
 
 .container {
     width: 100%;
-    background-color: var(--clr-midgrey);
-    /*     height:auto; */
-    /*     min-height: 500px; */
-    /*     margin: 0 auto; */
-    /*     border: 10px solid red; */
+    background-color: var(--clr-darkgrey);
 }
 
 .main {
     width: 77%;
-    min-width: 330px;
-    /*   display: block; */
-    /*   padding: 7px; */
-    background-color: var(--clr-darkgreen);
+    min-width: 290px;
+    background-color: var(--clr-light);
+    color: var(--clr-darkgreen);
     margin: 14px auto;
     border: solid 7px var(--clr-light);
     border-radius: 5px;
     overflow: auto;
 
+}
+
+.home {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--clr-darkgreen);
+    color: var(--clr-light)
 }
+
+.inPerson {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--clr-darkgreen);
+    color: var(--clr-light)
+}
+
+/* .main {
+    background-color: var(--clr-light);
+    color: var(--clr-darkgreen);
+} */
 
 .item {
     background-color: var(--clr-darkgreen);
     color: var(--clr-light);
     text-align: center;
-    max-width: 500px;
+    width: clamp(300px, 33vw, 700px);
 }
 
-.info {
-    padding: 1em;
+.item h2 {
+    color: var(--clr-light);
+}
+
+.width_100{
+    width: 100%;
 }
 
 .imageContainer {
     border: var(--clr-darkgreen) 7px solid;
-    width: 50%;
-    /*   margin-left: 0; */
-    /*   display: inline-block; */
-    /*   position: relative; */
-    /*   text-align: center; */
-    /*   min-height: 490px; */
-    min-width: 280px;
-    background-color: var(--clr-darkgreen);
 }
 
-.main-pic {
+.main__img {
     width: 100%;
-    max-width: 500px;
 }
 
 .eventBox {
+    width: 90%;
     border: var(--clr-gold) 7px solid;
     border-radius: 7px;
     margin: 3px auto;
     background-color: var(--clr-gold);
-    width: 70%;
-    color: var(--clr-darkgreen)
+    color: var(--clr-darkgreen);
+    text-align: center;
 }
 
 .eventBox h3 {
@@ -251,6 +281,72 @@ a:hover {
     font-size: .8rem;
 }
 
-.home {
-    color: var(--clr-light)
+.eventImage{
+    width: 100%;
+    max-width: 200px;
+}
+
+.MrCBackground {
+    background-color: var(--clr-darkred);
+    /* background-color: #4c150e; */
+    background-image: url(/images/IMG_6537_SittingCutout.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    min-height: 587px;
+    text-align: left;
+}
+
+.greenGrad {
+    background: linear-gradient(140deg, var(--clr-light) 0%, var(--clr-darkgreen) 100%);
+}
+
+.fbreviews {
+    margin: 14px auto;
+    display: flex;
+    border: none;
+    overflow: hidden;
+    max-width: clamp(49vw, 49vw, 500px);
+}
+
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 35%;
+    padding-top: 140px;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.funMenuBox {
+    margin: auto;
+    border: dotted 3px #8c9d52;
+    border-radius: 14px;
+    width: 70%;
+}
+
+.funMenu {
+    margin-top: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.funMenu li {
+    display: block;
+    margin: 7px auto;
+    border: solid 3px var(--clr-midgrey);
+    border-radius: 5px;
+    background-color: var(--clr-lightgrey);
+    width: 70%;
+}
+
+.kristos {
+    color: var(--clr-lightgreen);
 }
