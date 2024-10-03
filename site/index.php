@@ -68,7 +68,7 @@ if ($iMonth == 12 && $iDay > 24) {
   <div class="item">
       <h2><?php echo $tHeading; ?></h2>
       <?php if ($iMonth >= $iMonthActive) { ?>
-        <p class="centerText" style="color: #fff; line-height: 133%;"><?php echo $tParaStart; ?></p>
+        <p class="centerText"><?php echo $tParaStart; ?></p>
 
         <?php echo $tEvent; ?>
 

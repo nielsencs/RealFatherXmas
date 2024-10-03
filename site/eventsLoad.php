@@ -32,6 +32,9 @@ function trimPastEvents($tEvents, $oDate)
     echo "<!-- FFF $tEventTime $tEventDate -->";
     $oEventDate = strtotime($tEventTime . " " . $tEventDate);
     // $oEventDate = strtotime($tEventDate);
+
+
+    // todo: the 17 in the below calc is the hour - should be taken from event finish
     if ($oEventDate < ($oDate - (17 * 60 * 60))) { // if the event is in the past
       if (strpos($tEvents, $tEventStart, $iPos2) > 0) { // if there are more events
         $tEvents = substr($tEvents, strpos($tEvents, $tEventStart, $iPos2)); // move on
