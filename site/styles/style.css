@@ -1,7 +1,8 @@
 :root {
     --clr-darkgreen: #004030;
     --clr-lightgreen: #8c9d52;
-    --clr-darkgold: #dd9000;
+    /* --clr-darkgold: #dd9000; */
+    --clr-darkgold: #9e5200;
     --clr-gold: #fad163;
     --clr-darkred: #550000;
     --clr-red: #bb0000;
@@ -245,7 +246,7 @@ a:hover {
     color: var(--clr-light);
 }
 
-.width_100{
+.width_100 {
     width: 100%;
 }
 
@@ -262,9 +263,42 @@ a:hover {
     border: var(--clr-gold) 7px solid;
     border-radius: 7px;
     margin: 3px auto;
+
     background-color: var(--clr-gold);
     color: var(--clr-darkgreen);
+
+    /* background: linear-gradient(120deg,
+            var(--clr-gold),
+            #f6d365,
+            #f6d365,
+            var(--clr-darkgold),
+            #f6d365,
+            #f6d365,
+            var(--clr-light),
+            #f6d365,
+            #f6d365,
+            #fdc585,
+            #f6d365,
+            #f6d365,
+            #f6d365);
+    background-size: 300% 300%;
+    animation: gradientAnimation 14s ease infinite; */
+
     text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .eventBox h3 {
@@ -281,7 +315,7 @@ a:hover {
     font-size: .8rem;
 }
 
-.eventImage{
+.eventImage {
     width: 100%;
     max-width: 200px;
 }
