@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Real Father Xmas</title>
+    <?php require_once 'config.php'; ?>
+    <title><?php echo SITE_NAME; ?></title>
 
     <link rel="icon" sizes="192x192" href="images/RFXIcon.png">
     <link rel="shortcut icon" href="images/RFXIcon.png">
@@ -21,6 +21,10 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <?php
+    header("Content-Security-Policy: frame-ancestors 'self'");
+    header("X-Content-Type-Options: nosniff");
+    header("X-Frame-Options: SAMEORIGIN");
+    header("X-XSS-Protection: 1; mode=block");
     if ($bSnow) {
         echo '<script src="scripts/snow.js"></script>';
     }

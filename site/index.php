@@ -25,7 +25,7 @@ $tParaStart = 'But the elves are always ready to help with bookings and anything
 $tParaEmail = 'send us an <a href="mailto:elves@realfatherxmas.com" style="font-weight:bold;">email</a>';
 $tParaBott = '';
 
-$bForm = false;
+$bForm = true;
 $tFormFill = "";
 if ($bForm) {
   $tFormFill = " or fill in the form below";
@@ -86,13 +86,13 @@ if ($iMonth == 12 && $iDay > 24) {
     <form action="action_page.php">
 
       <label for="fname">Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
 
       <label for="subject">Subject</label>
       <input type="text" id="subject" name="subject" placeholder="Subject...">
 
       <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
 
       <input type="submit" value="Submit" class="center">
 

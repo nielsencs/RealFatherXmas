@@ -9,7 +9,7 @@
             <li><a href="https://www.youtube.com/@realfatherxmas" target="_blank">YouTube</a></li>
             <li><a href="mailto:elves@realfatherxmas.com" target="_blank">Email</a></li>
         </ul>
-        <p>&#169;2020-<?php echo date("Y"); ?> Real Father Xmas.</p>
+        <p>&#169;2020-<?php echo date("Y"); ?> <?php echo SITE_NAME; ?>.</p>
     </footer>
     </body>
 
