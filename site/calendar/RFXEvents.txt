@@ -1,0 +1,36 @@
+<div class="eventBox"><h3>-= Saturday 22 November 2025 =-</h3>
+<h4>--- 13:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4>
+<p><a href="https://maps.app.goo.gl/vCzdWp9X3fjgCdKB8" target="_blank">Location: Pitstone Memorial Hall<br>(Click to show on Google Maps)</a></p><p></p>
+<p><a href="https://www.facebook.com/pitstonehall" target="_blank"><img class="eventImage" src="images\PitstoneSmall.jpg" alt="Event Image"><br>Facebook Page</a></p>
+</div>
+
+<div class="eventBox"><h3>-= Friday 28 November 2025 =-</h3>
+<h4>--- 19:00-21:00 Dunstable Torchlight event ---</h4>
+<p><a href="https://maps.app.goo.gl/1xTM8ckfiFY5UvLw5" target="_blank">Location: Ashton Square, Dunstable<br>(Click to show on Google Maps)</a></p><p></p>
+<p><a href="https://www.facebook.com/Dunstablecouncil" target="_blank"><img class="eventImage" src="images\Dunstable.jpg" alt="Event Image"><br>Facebook Page</a></p>
+
+</div>
+
+<div class="eventBox"><h3>-= Monday 01 December 2025 =-</h3>
+<h4>--- 08:00-09:00 Konnect Radio ---</h4>
+<p>Go to <a href="https://www.konnectradio.com/" id="ow1853" __is_owner="true" target="_blank">https://www.konnectradio.com/</a> and click the play button underneath 'Playing Now'</p>
+<p><a href="https://www.facebook.com/konnectradio" target="_blank"><img class="eventImage" src="images\KonnectLogo.png" alt="Event image" width=14%><br>Facebook Page</a></p>
+</div>
+
+<div class="eventBox"><h3>-= Saturday 06 December 2025 =-</h3>
+<h4>--- 12:00-17:00 Bletchley ---</h4>
+<p><a href="https://maps.app.goo.gl/XM9HroXkmJRuANqR6" target="_blank">Location: Bletchley Highstreet, Queensway, Bletchley, Milton Keynes<br>(Click to show on Google Maps)</a></p><p>Bletchley Christmas Event</p>
+<p><a href="https://www.facebook.com/bfs.towncouncil" target="_blank"><img class="eventImage" src="images\Bletchley.jpg" alt="Event Image"><br>Facebook Page</a></p>
+</div>
+
+<div class="eventBox"><h3>-= Saturday 13 December 2025 =-</h3>
+<h4>--- 11:00-16:00 Locals Of the Lakes ---</h4>
+<p><a href="https://maps.app.goo.gl/SfBszoprDuy1AECE6" target="_blank">Location: St Frideswide's Water Eaton, Drayton Rd, Water Eaton, Bletchley, Milton Keynes MK2 3RR<br>(Click to show on Google Maps)</a></p><p>Annual Locals Of the Lakes Christmas event</p>
+<p><a href="https://www.facebook.com/events/329338866626374" target="_blank"><img class="eventImage" src="images\Lakes.jpg" alt="Event Image"><br>Facebook Page</a></p>
+</div>
+
+<div class="eventBox"><h3>-= Friday 19 December 2025 =-</h3>
+<h4>--- 11:00-17:00 New Hope Shop ---</h4>
+<p><a href="https://maps.app.goo.gl/dwnHAR4CekrBGomE7" target="_blank"Location: New Hope Shop, 165 New Rd, Croxley Green, Rickmansworth WD3 3HB<br>(Click to show on Google Maps)</a></p><p>Croxley New Hope Shop Christmas Event</p>
+<p><a href="https://www.newhope.org.uk/" target="_blank"><img class="eventImage" src="images\NewHopeSmall.jpg" alt="Event Image"><br>Website</a></p>
+</div>
