@@ -1,4 +1,4 @@
-<div class="eventBox"><h3>-= Friday 30 November 2023 =-</h3>
+<div class="eventBox"><h3>-= Friday 30 November 2024 =-</h3>
 <h4>--- 19:00-21:00 Dunstable Torchlight event ---</h4>
 <p><a href="https://maps.app.goo.gl/1xTM8ckfiFY5UvLw5" target="_blank">Location: Ashton Square, Dunstable<br>(Click to show on Google Maps)</a></p><p></p>
 <p><a href="https://fb.me/e/2kyzWnZGj" target="_blank"><img class="eventImage" src="images\Dunstable.jpg" alt="Event Image"><br>Facebook Page</a></p>
@@ -6,7 +6,7 @@
 </div>
 
 <div class="eventBox"><h3>-= Saturday 30 November 2024 =-</h3>
-<h4>--- 13:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4>
+<h4>--- 12:00-16:00 Pitstone Memorial Hall Christmas Fayre ---</h4>
 <p><a href="https://maps.app.goo.gl/vCzdWp9X3fjgCdKB8" target="_blank">Location: Pitstone Memorial Hall<br>(Click to show on Google Maps)</a></p><p></p>
 <p><a href="https://www.facebook.com/pitstonehall" target="_blank"><img class="eventImage" src="images\PitstoneSmall.jpg" alt="Event Image"><br>Facebook Page</a></p>
 </div>
@@ -23,30 +23,16 @@
 <p><a href="https://www.facebook.com/bfs.towncouncil" target="_blank"><img class="eventImage" src="images\Bletchley.jpg" alt="Event Image"><br>Facebook Page</a></p>
 </div>
 
-<div class="eventBox"><h3>-= Wednesday 11 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
-</div>
-
-<div class="eventBox"><h3>-= Thursday 12 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
-</div>
-
 <div class="eventBox"><h3>-= Friday 13 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
+<h4>--- 16:00-20:00 Fenny Stratford ---</h4>
+<p><a href="https://maps.app.goo.gl/VyL3jPPEFMztiZyA6" target="_blank">Location: Fenny Stratford Community Centre 13 George St, Fenny Stratford, Bletchley, Milton Keynes<br>(Click to show on Google Maps)</a></p><p>Bletchley Christmas Event</p>
+<p><a href="https://www.facebook.com/bfs.towncouncil" target="_blank"><img class="eventImage" src="images\Bletchley.jpg" alt="Event Image"><br>Facebook Page</a></p>
 </div>
 
 <div class="eventBox"><h3>-= Saturday 14 December 2024 =-</h3>
-<h4>--- 11:00-16:00 Locals Of the Lakes ---</h4>
+<h4>--- 12:00-15:00 Locals Of the Lakes ---</h4>
 <p><a href="https://maps.app.goo.gl/SfBszoprDuy1AECE6" target="_blank">Location: St Frideswide's Water Eaton, Drayton Rd, Water Eaton, Bletchley, Milton Keynes MK2 3RR<br>(Click to show on Google Maps)</a></p><p>Annual Locals Of the Lakes Christmas event</p>
-<p><a href="https://www.facebook.com/events/329338866626374" target="_blank"><img class="eventImage" src="images\Lakes.jpg" alt="Event Image"><br>Facebook Page</a></p>
-</div>
-
-<div class="eventBox"><h3>-= Wednesday 18 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
-</div>
-
-<div class="eventBox"><h3>-= Thursday 19 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
+<p><a href="https://fb.me/e/46QRNx3C7" target="_blank"><img class="eventImage" src="images\Lakes.jpg" alt="Event Image"><br>Facebook Page</a></p>
 </div>
 
 <div class="eventBox"><h3>-= Friday 20 December 2024 =-</h3>
@@ -54,8 +40,3 @@
 <p><a href="https://maps.app.goo.gl/dwnHAR4CekrBGomE7" target="_blank"Location: New Hope Shop, 165 New Rd, Croxley Green, Rickmansworth WD3 3HB<br>(Click to show on Google Maps)</a></p><p>Croxley New Hope Shop Christmas Event</p>
 <p><a href="https://www.newhope.org.uk/" target="_blank"><img class="eventImage" src="images\NewHopeSmall.jpg" alt="Event Image"><br>Website</a></p>
 </div>
-
-<div class="eventBox"><h3>-= Saturdy 21 December 2024 =-</h3>
-<h4>--- 11:00-16:30 Will MrC be back in Berko? Watch this space... ---</h4>
-</div>
-
