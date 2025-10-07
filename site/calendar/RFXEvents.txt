@@ -19,7 +19,7 @@
 
 <div class="eventBox"><h3>-= Saturday 06 December 2025 =-</h3>
 <h4>--- 12:00-17:00 Bletchley ---</h4>
-<p><a href="https://maps.app.goo.gl/XM9HroXkmJRuANqR6" target="_blank">Location: Bletchley Highstreet, Queensway, Bletchley, Milton Keynes<br>(Click to show on Google Maps)</a></p><p>Bletchley Christmas Event</p>
+<p><a href="https://maps.app.goo.gl/Wwk9ULVPcEnUGDmF7" target="_blank">Location: Newton Leys Pavilion, Furzey Way, Newton Leys, Milton Keynes MK3 5SP<br>(Click to show on Google Maps)</a></p><p>Bletchley Christmas Event</p>
 <p><a href="https://www.facebook.com/bfs.towncouncil" target="_blank"><img class="eventImage" src="images\Bletchley.jpg" alt="Event Image"><br>Facebook Page</a></p>
 </div>
 
