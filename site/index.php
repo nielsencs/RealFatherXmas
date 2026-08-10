@@ -13,10 +13,10 @@ $iMonth = date("m", $oDate);
 $iDay = date("j", $oDate);
 
 $iMonthActive = 10;
-$tImage = "images/MrC.jpg";
+$tImage = "/images/MrC.jpg";
 $tImageAlt = "Mr C sitting by his tree!";
 if ($iMonth < $iMonthActive || ($iMonth == 12 && $iDay > 24)) {
-  $tImage = "images/MrCSnooze.jpg";
+  $tImage = "/images/MrCSnooze.jpg";
   $tImageAlt = "Mr C snoozing after a long Christmas season!";
 }
 

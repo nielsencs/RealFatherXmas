@@ -15,7 +15,7 @@ require_once 'header.php';
         <div class="eventBox"><h3>-= Someday not tooooooo long from now =-</h3>
         <h4>--- Sometime ---</h4>
         <p>Location: Somewhwere there'll be a Christmas Event</p>
-        <p><img class="eventImage" src="images\NewHopeSmall.jpg" alt="Event Image"></p>
+        <p><img class="eventImage" src="/images/NewHopeSmall.jpg" alt="Event Image"></p>
         </div>
 
         <?php 
