@@ -1,5 +1,5 @@
 <?php
-$bSnow = true;
+$bSnow = false;
 require_once 'header.php';
 ?>
 <div class='main'>
