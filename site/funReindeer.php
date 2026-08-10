@@ -76,7 +76,6 @@ require_once 'funMenu.php';
   </ul>
   <!-- <h3>Name a Reindeer</h3> NOT YET!
   <p>Would you like to name one of Mr C's reindeer? And get a certificate to prove it?</p> -->
-  <img src="/images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
 </div>
 <?php
 require_once 'footer.php';
