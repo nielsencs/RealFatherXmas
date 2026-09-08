@@ -4,7 +4,7 @@
 
     <footer>
         <ul class="nav">
-            <li><a href="privacy">Privacy Policy</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="https://www.facebook.com/realfatherxmas" target="_blank">Facebook</a></li>
             <li><a href="https://www.youtube.com/@realfatherxmas" target="_blank">YouTube</a></li>
             <li><a href="mailto:elves@realfatherxmas.com" target="_blank">Email</a></li>
