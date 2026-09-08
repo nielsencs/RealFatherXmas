@@ -9,7 +9,7 @@ require_once 'header.php';
     <h2>Why Xmas?</h2>
     <p>Q. Isn&rsquo;t it rude to say &lsquo;X&rsquo;mas rather than &lsquo;Christ&rsquo;mas?</p>
     <p>A. Actually, no! I think that the X is like a kiss from Jesus himself.</p>
-    <img src="images/Xmas_003.jpg" alt="Xmas" style="width:100%;">
+    <img src="/images/Xmas_003.jpg" alt="Xmas" style="width:100%;">
     <h3>And now for the technical bit!</h3>
     <p>The word &ldquo;Christmas&rdquo; comes from the Old English term &ldquo;Cristes maesse&rdquo; or
         &ldquo;Christ&rsquo;s mass&rdquo; which has been written as one word since the 14th century.</p>
@@ -22,7 +22,7 @@ require_once 'header.php';
     <p>Oh and one more thing... it does make the web address a bit shorter!</p>
     <p>*To be exact the New Testament was written in Koine Greek, a dialect that was very common in the
         Middle East at the time of Christ&rsquo;s ministry.</p>
-    <img src="images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
+    <img src="/images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
 </div>
 <?php
 require_once 'footer.php';
