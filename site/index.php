@@ -12,7 +12,7 @@ $tEvent = getFirstEvent($tEvents);
 $iMonth = date("m", $oDate);
 $iDay = date("j", $oDate);
 
-$iMonthActive = 10;
+$iMonthActive = 9;
 $tImage = "/images/MrC.jpg";
 $tImageAlt = "Mr C sitting by his tree!";
 if ($iMonth < $iMonthActive || ($iMonth == 12 && $iDay > 24)) {
