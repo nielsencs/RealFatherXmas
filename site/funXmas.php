@@ -22,7 +22,6 @@ require_once 'header.php';
     <p>Oh and one more thing... it does make the web address a bit shorter!</p>
     <p>*To be exact the New Testament was written in Koine Greek, a dialect that was very common in the
         Middle East at the time of Christ&rsquo;s ministry.</p>
-    <img src="/images/SnowTrees.jpg" style="width: 100%;margin-top: 28px;" alt="Snowy forest near Mr C&rsquo;s place!">
 </div>
 <?php
 require_once 'footer.php';
