@@ -1,8 +1,14 @@
 :root {
     --clr-darkgreen: #004030;
     --clr-lightgreen: #8c9d52;
-    /* --clr-darkgold: #dd9000; */
-    --clr-darkgold: #9e5200;
+    --clr-darkergold: #9e5200;
+
+    /* for ticket only */
+    --clr-darkgold: #f5a512;
+    --clr-midgold: #fad163;
+    --clr-pinkgold: #fdc585;
+    --clr-lightgold: #ffe988;
+
     --clr-gold: #fad163;
     --clr-darkred: #550000;
     --clr-red: #bb0000;
@@ -188,7 +194,7 @@ a {
 }
 
 a:hover {
-    color: var(--clr-darkgold);
+    color: var(--clr-darkergold);
 }
 
 .container {
@@ -267,22 +273,24 @@ a:hover {
     background-color: var(--clr-gold);
     color: var(--clr-darkgreen);
 
-    /* background: linear-gradient(120deg,
-            var(--clr-gold),
-            #f6d365,
-            #f6d365,
+    background: linear-gradient(120deg,
+            var(--clr-midgold),
+            var(--clr-midgold),
             var(--clr-darkgold),
-            #f6d365,
-            #f6d365,
-            var(--clr-light),
-            #f6d365,
-            #f6d365,
-            #fdc585,
-            #f6d365,
-            #f6d365,
-            #f6d365);
+            var(--clr-midgold),
+            var(--clr-midgold),
+            var(--clr-midgold),
+            var(--clr-lightgold),
+            var(--clr-midgold),
+            var(--clr-pinkgold),
+            var(--clr-midgold),
+            var(--clr-lightgold),
+            var(--clr-midgold),
+            var(--clr-darkgold),
+            var(--clr-midgold),
+            var(--clr-midgold));
     background-size: 300% 300%;
-    animation: gradientAnimation 14s ease infinite; */
+    animation: gradientAnimation 14s ease infinite;
 
     text-align: center;
 }
