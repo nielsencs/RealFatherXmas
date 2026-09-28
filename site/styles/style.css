@@ -267,7 +267,7 @@ a:hover {
     background-color: var(--clr-gold);
     color: var(--clr-darkgreen);
 
-    /* background: linear-gradient(120deg,
+    background: linear-gradient(120deg,
             var(--clr-gold),
             #f6d365,
             #f6d365,
@@ -282,7 +282,7 @@ a:hover {
             #f6d365,
             #f6d365);
     background-size: 300% 300%;
-    animation: gradientAnimation 14s ease infinite; */
+    animation: gradientAnimation 14s ease infinite;
 
     text-align: center;
 }
