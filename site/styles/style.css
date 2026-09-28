@@ -4,10 +4,10 @@
     --clr-darkergold: #9e5200;
 
     /* for ticket only */
-    --clr-darkgold: #dd900088;
-    --clr-lightgold: #f6d36588;
-    --clr-midgold: #fad16388;
-    --clr-pinkgold: #fdc58588;
+    --clr-darkgold: #dd9000;
+    --clr-midgold: #fad163;
+    --clr-pinkgold: #fdc585;
+    --clr-lightgold: #ffe988;
 
     --clr-gold: #fad163;
     --clr-darkred: #550000;
@@ -276,16 +276,15 @@ a:hover {
     background: linear-gradient(120deg,
             var(--clr-midgold),
             var(--clr-lightgold),
-            var(--clr-lightgold),
+            var(--clr-midgold),
             var(--clr-darkgold),
             var(--clr-midgold),
+            var(--clr-midgold),
+            var(--clr-midgold),
             var(--clr-lightgold),
-            var(--clr-lightgold),
-            var(--clr-lightgold),
-            var(--clr-lightgold),
+            var(--clr-midgold),
             var(--clr-pinkgold),
-            var(--clr-lightgold),
-            var(--clr-lightgold),
+            var(--clr-midgold),
             var(--clr-lightgold),
             var(--clr-midgold));
     background-size: 300% 300%;
