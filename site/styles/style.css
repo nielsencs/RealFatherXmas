@@ -286,6 +286,8 @@ a:hover {
             var(--clr-midgold),
             var(--clr-lightgold),
             var(--clr-midgold),
+            var(--clr-darkgold),
+            var(--clr-midgold),
             var(--clr-midgold));
     background-size: 300% 300%;
     animation: gradientAnimation 14s ease infinite;
