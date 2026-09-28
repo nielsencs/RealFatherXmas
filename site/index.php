@@ -79,23 +79,42 @@ if ($iMonth == 12 && $iDay > 24) {
 
     </div>
   </div>
-</div>
 <?php if ($bForm) { ?>
-  <div class="contactForm">
-    <h3>Contact Form</h3>
-    <form action="action_page.php">
+  <div class="main contactForm" id="contact">
+    <h3>Contact the elves</h3>
+    <p class="contactForm__intro">Tell us what you have in mind and how to get back to you.</p>
+    <form class="contactForm__form" action="/action_page" method="post">
+      <div class="contactForm__field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+      </div>
 
-      <label for="fname">Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+      <div class="contactForm__field contactForm__field--half">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+      </div>
 
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" placeholder="Subject...">
+      <div class="contactForm__field contactForm__field--half">
+        <label for="phone">Phone <span class="contactForm__optional">optional</span></label>
+        <input type="tel" id="phone" name="phone" placeholder="Best number to call" autocomplete="tel">
+      </div>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+      <div class="contactForm__field">
+        <label for="subject">Subject <span class="contactForm__optional">optional</span></label>
+        <input type="text" id="subject" name="subject" placeholder="Booking enquiry, event visit, question...">
+      </div>
 
-      <input type="submit" value="Submit" class="center">
+      <div class="contactForm__field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="7" placeholder="Dates, location, ages, event details, or anything else the elves should know" required></textarea>
+      </div>
 
+      <div class="contactForm__field contactForm__field--trap" aria-hidden="true">
+        <label for="website">Website</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      <button type="submit" class="contactForm__submit">Send message</button>
     </form>
   </div>
 <?php } ?>

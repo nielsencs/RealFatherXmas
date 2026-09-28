@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="/styles/style.css">
 
     <?php
+    $bSnow = $bSnow ?? false;
     header("Content-Security-Policy: frame-ancestors 'self'");
     header("X-Content-Type-Options: nosniff");
     header("X-Frame-Options: SAMEORIGIN");

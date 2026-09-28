@@ -1,4 +1,6 @@
 <?php
+$bSnow = false;
+http_response_code(404);
 require_once 'header.php';
 ?>
 <div class="main">
