@@ -4,7 +4,7 @@
     --clr-darkergold: #9e5200;
 
     /* for ticket only */
-    --clr-darkgold: #dd9000;
+    --clr-darkgold: #f5a512;
     --clr-midgold: #fad163;
     --clr-pinkgold: #fdc585;
     --clr-lightgold: #ffe988;
@@ -275,7 +275,6 @@ a:hover {
 
     background: linear-gradient(120deg,
             var(--clr-midgold),
-            var(--clr-lightgold),
             var(--clr-midgold),
             var(--clr-darkgold),
             var(--clr-midgold),
@@ -286,6 +285,7 @@ a:hover {
             var(--clr-pinkgold),
             var(--clr-midgold),
             var(--clr-lightgold),
+            var(--clr-midgold),
             var(--clr-midgold));
     background-size: 300% 300%;
     animation: gradientAnimation 14s ease infinite;
