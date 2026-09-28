@@ -6,8 +6,8 @@
     /* for ticket only */
     --clr-darkgold: #dd900088;
     --clr-lightgold: #f6d36588;
-    --clr-pinkgold: #fdc58588;
     --clr-midgold: #fad16388;
+    --clr-pinkgold: #fdc58588;
 
     --clr-gold: #fad163;
     --clr-darkred: #550000;
@@ -278,15 +278,16 @@ a:hover {
             var(--clr-lightgold),
             var(--clr-lightgold),
             var(--clr-darkgold),
+            var(--clr-midgold),
             var(--clr-lightgold),
             var(--clr-lightgold),
-            var(--clr-light),
             var(--clr-lightgold),
             var(--clr-lightgold),
             var(--clr-pinkgold),
             var(--clr-lightgold),
             var(--clr-lightgold),
-            var(--clr-lightgold));
+            var(--clr-lightgold),
+            var(--clr-midgold));
     background-size: 300% 300%;
     animation: gradientAnimation 14s ease infinite;
 
