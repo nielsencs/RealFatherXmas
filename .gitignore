@@ -1,4 +1,1 @@
-test*.*
-icalendar/
-site/error_log
-site/.ftpquota
+vendor/
