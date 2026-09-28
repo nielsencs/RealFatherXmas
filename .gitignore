@@ -1,1 +1,4 @@
 vendor/
+test*.*
+site/error_log
+site/.ftpquota
