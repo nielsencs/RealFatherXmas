@@ -113,6 +113,7 @@ if ($iMonth == 12 && $iDay > 24) {
         <label for="website">Website</label>
         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
       </div>
+      <input type="hidden" name="formStarted" value="<?php echo time(); ?>">
 
       <button type="submit" class="contactForm__submit">Send message</button>
     </form>
