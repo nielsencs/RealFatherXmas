@@ -1,6 +1,7 @@
 <?php
 $bSnow = false;
 require_once 'config.php';
+require_once 'formSpam.php';
 
 function h($value)
 {
@@ -69,6 +70,18 @@ if ($isPost) {
                 'Reply-To: ' . $safeEmail,
                 'Content-Type: text/plain; charset=UTF-8',
             ];
+
+            // Suspect messages still arrive, but go to Junk (formSpam.php).
+            $started = (int)posted('formStarted');
+            $secondsOnPage = $started > 0 ? time() - $started : null;
+            $fields = ['name' => $name, 'email' => $email, 'subject' => $cleanSubject, 'message' => $message];
+            $clientIp = $_SERVER['HTTP_CF_CONNECTING_IP'] ?? ($_SERVER['REMOTE_ADDR'] ?? '');
+            $spamReasons = rfxFormSpamReasons($fields, $secondsOnPage,
+                fn($f) => rfxRspamdScore($f, $clientIp));
+            if ($spamReasons) {
+                $headers[] = 'X-Spam: Yes';
+                $headers[] = 'X-RFX-Form-Spam: ' . preg_replace('/[\r\n]+/', ' ', implode('; ', $spamReasons));
+            }
 
             $sent = mail(EMAIL_TO, $cleanSubject, $body, implode("\r\n", $headers));
             $mailtoHref = 'mailto:' . EMAIL_TO
